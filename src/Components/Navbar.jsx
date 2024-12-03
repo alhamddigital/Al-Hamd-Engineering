@@ -2,12 +2,42 @@ import React, { useEffect, useState } from 'react'
 import { HiOutlineBars3 } from 'react-icons/hi2'
 import { IoMdHome } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
+import { useSelector } from 'react-redux';
 
 const Navbar = () => {
   const [scrolled, setIsScrolled] = useState(false)
   const [activeLink, setactiveLink] = useState('home')
   const [checkSidebar, setSidebar] = useState(false)
   const [currentCategory, setcurrentCategory] = useState("home")
+  const {
+    consHomeTop,
+    consAboutTop,
+    consValuesTop,
+    consClientTop,
+    consContactTop
+  } = useSelector(state => state.construction)
+
+  useEffect(() => {
+    if (consHomeTop < window.innerHeight) {
+      setactiveLink('home')
+    }
+
+    if (consAboutTop < window.innerHeight) {
+      setactiveLink('about')
+    }
+
+    if (consValuesTop < window.innerHeight) {
+      setactiveLink('values')
+    }
+
+    if (consClientTop < window.innerHeight) {
+      setactiveLink('client')
+    }
+
+    if (consContactTop < window.innerHeight) {
+      setactiveLink('contact')
+    }
+  }, [consHomeTop])
 
 
   useEffect(() => {
@@ -48,8 +78,9 @@ const Navbar = () => {
     };
   }, [checkSidebar]);
 
-  // console.log(consHomeTop, 'consHomeTop')
+  console.log(consContactTop, 'consContactTop')
   // console.log(checkSidebar,"checkSidebar")
+
 
   return (
     <>
@@ -60,7 +91,7 @@ const Navbar = () => {
       >
         <div className='flex items-center'>
           <div className='logosAnimation w-[100px]'>
-            <a href='/consHome'>
+            <a href='/'>
               <img
                 className='w-full h-full cursor-pointer'
                 src="https://res.cloudinary.com/dqfjfh5wm/image/upload/v1732788965/fr82i0vhs2yxfrnicxqx.png"
@@ -68,31 +99,6 @@ const Navbar = () => {
               />
             </a>
           </div>
-
-          <div className='otherLogos text-3xl ml-5 sm:ml-[120px]' title='Main Page'>
-            <a href='/'><IoMdHome /></a>
-          </div>
-
-          <div className='otherLogos w-[50px] h-[30px] ml-1 sm:ml-[20px]' title='Premier Food'>
-            <a href='/dairyHome'>
-              <img
-                className='w-full h-full cursor-pointer'
-                src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857806/logo2_kaduuv.png"
-                alt=''
-              />
-            </a>
-          </div>
-
-          <div className='otherLogos w-[50px] h-[30px] ml-1 sm:ml-[20px]' title='Transport'>
-            <a href='/transportHome'>
-              <img
-                className='w-full h-full cursor-pointer'
-                src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857806/logoTransport_gwchby.png"
-                alt=''
-              />
-            </a>
-          </div>
-
 
         </div>
 

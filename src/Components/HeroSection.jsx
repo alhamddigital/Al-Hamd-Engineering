@@ -6,6 +6,8 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 import Navbar from "./Navbar"
+import { useDispatch, useSelector } from 'react-redux'
+import { constructionHome } from '../Redux/Slice'
 
 const PrevArrow = ({ onClick }) => {
   return (
@@ -26,6 +28,7 @@ const NextArrow = ({ onClick }) => {
 }
 
 const HeroSection = () => {
+  const {selectedMill}=useSelector(state=>state.construction)
   const [selectedPlant, setselectedPlant] = useState()
   const [hoveredIndex, sethoveredIndex] = useState(null)
   const [activeSlide, setActiveSlide] = useState(0)
@@ -36,7 +39,11 @@ const HeroSection = () => {
   const dropDownRef=useRef()
   const dropDownRefParent=useRef()
   const homeRef = useRef()
+  const dispatch=useDispatch()
 
+  useEffect(()=>{
+    setselectedPlant(selectedMill)
+  },[selectedMill])
 
   const settings = {
     className: 'center',
@@ -201,7 +208,7 @@ const memorizedData=useMemo(()=>{
             <div className='w-full h-full md:col-span-3 lg:col-span-4'>
               {selectedPlant ? (
                 <>
-                  <div className='w-full h-[200px] sm:h-[300px] md:h-[270px] lg:h-[430px] relative'>
+                  <div className='w-full h-[65%] relative'>
                     <img
                       className='w-full h-full object-cover'
                       src={selectedPlant?.images[activeSlide]}
