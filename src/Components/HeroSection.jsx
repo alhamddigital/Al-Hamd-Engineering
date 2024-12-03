@@ -208,7 +208,7 @@ const memorizedData=useMemo(()=>{
             <div className='w-full h-full md:col-span-3 lg:col-span-4'>
               {selectedPlant ? (
                 <>
-                  <div className='w-full h-[65%] relative'>
+                  <div className='w-full h-[200px] sm:h-[300px] md:h-[270px] lg:h-[510px]  relative'>
                     <img
                       className='w-full h-full object-cover'
                       src={selectedPlant?.images[activeSlide]}

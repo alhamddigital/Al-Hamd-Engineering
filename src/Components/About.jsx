@@ -4,6 +4,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useDispatch } from 'react-redux';
 import { constructionAbout } from '../Redux/Slice';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
     const dispatch = useDispatch()
@@ -97,7 +101,7 @@ const About = () => {
                 <div className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 mt-3 md:mt-7 lg:mt-9 gap-9'>
                     
                     <div ref={leftDiv} className='flex flex-col justify-center customShadow rounded-xl px-3 md:px-9 pb-4'>
-                        <p className='text-justify mt-5 lg:mt'>Al- Hamd General Engineering Services(AGES) began consruction in 1998. Over the years, The company has undertaken many challenging projects and accumulated skills, know-how and experiences and build solutions, project management services, building trades and related engineering work.</p>
+                        <p className='text-justify mt-5 lg:mt'><span className='text-red-500 text-xl'>Al-Hamd General Engineering Services(AGES)</span> began consruction in 1998. Over the years, The company has undertaken many challenging projects and accumulated skills, know-how and experiences and build solutions, project management services, building trades and related engineering work.</p>
                         <p className='text-justify mt-5 lg:mt'>AGES comprises of highly professional managers, engineers and other field staff related to the civil engineering discipline.</p>
                         <p className='text-justify mt-5'>Over the year Al-Hamd has earned respect and trust of its clientage by completing some of Pakistan's landmark projects involving, power and sugar industry projects, high-rise and architectural works.</p>
                         <p className='text-justify mt-5'>Today, Al-Hamd General Engineering Services is one of the Leading company to construct Sugar and Power House industry in Pakistan. Through the strength and expertise of our people, Al-Hamd Construction Company has sustained its business success providiing innovative construction solutions to complex infrastructure projects across Pakistan for over 19 years.</p>
