@@ -8,6 +8,7 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 import Navbar from "./Navbar"
 import { useDispatch, useSelector } from 'react-redux'
 import { constructionHome } from '../Redux/Slice'
+import { ToastContainer } from 'react-toastify'
 
 const PrevArrow = ({ onClick }) => {
   return (
@@ -152,7 +153,7 @@ const handleSlideIndex= (idx)=>{
           className='h-[5px] bg-blue-600 fixed z-20 top-0 left-0 transition-all duration-300'
           style={{ width: `${progress}%` }}
         ></div>
-        <Navbar />
+        {/* <Navbar /> */}
       <div id='consHome' ref={homeRef} className='constructionHeroSec w-full py-1 md:p-3'>
 
         <div className='w-full h-full'>
@@ -164,8 +165,7 @@ const handleSlideIndex= (idx)=>{
             <div ref={dropDownRef} className='dropdown-sidebar w-full md:h-[70vh] lg:h-[95vh] px-1 bg-gradient-to-l hidden md:block from-[rgb(4,39,53)] to-[rgb(32,130,85)] overflow-y-scroll'>
               {projectsData.map((object, i) => {
                 return (
-                  <>
-                    <div  id='consHome' onClick={()=>handleDropdowns(i)} className='w-full h-max mt-1 text-xl cursor-pointer relative'>
+                    <div key={i}  id='consHome' onClick={()=>handleDropdowns(i)} className='w-full h-max mt-1 text-xl cursor-pointer relative'>
                       
                       <div className={`w-full flex itemx-center cursor-pointer py-[2px] rounded ${selectedCompany === i ? "bg-gradient-to-r from-[rgb(4,39,53)] to-[rgb(32,130,85)] " : ""} hover:bg-gradient-to-r from-[rgb(4,39,53)] to-[rgb(32,130,85)]  hover:font-[480] text-white`}>
                         <div className='mt-[3px]'>
@@ -175,19 +175,16 @@ const handleSlideIndex= (idx)=>{
                       </div>
 
                       {/* ---------------------------DropDown-------------------------- */}
-                      <div className={` dropdownChild  ${ hoveredIndex == i ? 'h-max' : 'h-0'} ${ hoveredIndex == i ? 'h-max' : 'h-0'}  absolute top-9 left-0 w-full ${dropDownAbove ? "bg-red-500" : ""} rounded overflow-hidden bg-gradient-to-r from-[rgb(227,63,201)] to-[rgb(44,11,102)] duration-700 z-10`}>
+                      <div key={i} className={` dropdownChild  ${ hoveredIndex == i ? 'h-max' : 'h-0'} ${ hoveredIndex == i ? 'h-max' : 'h-0'}  absolute top-9 left-0 w-full ${dropDownAbove ? "bg-red-500" : ""} rounded overflow-hidden bg-gradient-to-r from-[rgb(227,63,201)] to-[rgb(44,11,102)] duration-700 z-10`}>
                         {object?.plants?.map((ele, i) => {
                           return (
-                            <>
-                              <div onClick={() => handlePlants(ele)} className={`text-white mt-1 pl-3 pr-4 py-[2px] cursor-pointer ${selectedPlant?.name == ele.name ? 'bg-gradient-to-l from-[rgb(227,63,201)] to-[rgb(44,11,102)]' : ''} rounded text-[14px] hover:bg-gradient-to-l from-[rgb(227,63,201)] to-[rgb(44,11,102)] text-nowrap hover:text-white font-[500]`}>
+                              <div key={i} onClick={() => handlePlants(ele)} className={`text-white mt-1 pl-3 pr-4 py-[2px] cursor-pointer ${selectedPlant?.name == ele.name ? 'bg-gradient-to-l from-[rgb(227,63,201)] to-[rgb(44,11,102)]' : ''} rounded text-[14px] hover:bg-gradient-to-l from-[rgb(227,63,201)] to-[rgb(44,11,102)] text-nowrap hover:text-white font-[500]`}>
                                 {ele?.name}
                               </div>
-                            </>
                           )
                         })}
                       </div>
                     </div>
-                  </>
                 )
               })}
             </div>

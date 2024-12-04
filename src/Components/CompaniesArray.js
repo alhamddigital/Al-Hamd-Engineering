@@ -715,7 +715,7 @@ export const projectsData = [
                     "https://res.cloudinary.com/djpvajewe/image/upload/v1732601274/sport_3_egewoh.jpg",
                     "https://res.cloudinary.com/djpvajewe/image/upload/v1732601281/sport_4.1_cqnc7z.jpg",
                     "https://res.cloudinary.com/djpvajewe/image/upload/v1732601274/sport_8_knbkub.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732601274/sport_6_gd1voj.jpg",
+                    "https://static.vecteezy.com/system/resources/previews/006/614/437/non_2x/indoor-badminton-court-free-photo.jpg",
                     "https://res.cloudinary.com/djpvajewe/image/upload/v1732601870/sport_4_zho9sm.jpg"
                 ],
             }

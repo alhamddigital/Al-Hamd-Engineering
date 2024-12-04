@@ -27,6 +27,14 @@ html {
   background-repeat: no-repeat;
 }
 
+.contactSection{
+  background-image: linear-gradient(rgb(66,61,143,0.8), rgb(66,61,143,0.8)), url('https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .customShadow {
   box-shadow: 0px 2px 8px 4px rgb(230, 229, 229);
 }

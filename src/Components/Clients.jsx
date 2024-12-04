@@ -82,7 +82,7 @@ const Clients = () => {
 
     return (
         <>
-            <div ref={clientRef} id='consClient' className='w-full lg:h-screen py-4 lg:py-[50px] px-3 lg:px-9 overflow-hidden'>
+            <div ref={clientRef} id='consClient' className='w-full lg:h-screen py-4 pb-9 sm:pb-0 lg:py-[50px] px-3 lg:px-9 overflow-hidden'>
                 <h1 className='text-3xl text-center font-[600]'>Our Clients</h1>
                 
                 <div className='lg:w-[70%] text-center mt-9 text-xl mx-auto text-justify sm:text-center'>Our valued clients are at the heart of everything we build. With trust and collaboration, we deliver tailored solutions that exceed expectations, creating long-lasting partnerships and remarkable results.</div>
@@ -90,15 +90,13 @@ const Clients = () => {
                 {/* Left-to-Right Slider */}
                 <div className='w-full md:h-[200px] mt-[45px]'>
                     <div className="slider-container">
-                        <Slider {...leftToRightSettings}>
+                        <Slider  {...leftToRightSettings}>
                             {
                                 clientsArray.map((e, i) => {
                                     return (
-                                        <>
-                                            <div className='w-[105px] h-[80px] md:w-[120px] md:h-[100px] lg:w-[130px] lg:h-[120px] lg:mt-9'>
-                                                <img className='w-full h-full' src={e} alt={`Client ${i + 1}`} />
+                                            <div key={i} className='h-[80px] md:h-[100px] lg:h-[120px] lg:mt-9'>
+                                                <img className='w-[105px] md:w-[120px] lg:w-[160px] mx-auto h-full' src={e} alt={`Client ${i + 1}`} />
                                             </div>
-                                        </>
                                     )
                                 })
                             }
@@ -107,17 +105,15 @@ const Clients = () => {
                 </div>
 
                 {/* Right-to-Left Slider */}
-                <div className='w-full md:h-[200px] mt-[60px] md:mt-0 lg:mt-[50px]'>
+                <div className='w-full md:h-[200px] mt-[40px] md:mt-0 lg:mt-[50px]'>
                     <div className="slider-container">
                         <Slider {...rightToLeftSettings}>
                             {
                                 clientsArray.map((e, i) => {
                                     return (
-                                        <>
-                                            <div className='w-[105px] h-[80px] md:w-[120px] md:h-[100px] lg:w-[130px] lg:h-[120px]'>
-                                                <img className='w-full h-full' src={e} alt={`Client ${i + 1}`} />
+                                            <div key={i} className='h-[80px] md:h-[100px] lg:h-[120px]'>
+                                                <img className='w-[105px] md:w-[120px] lg:w-[160px] mx-auto h-full' src={e} alt={`Client ${i + 1}`} />
                                             </div>
-                                        </>
                                     )
                                 })
                             }
