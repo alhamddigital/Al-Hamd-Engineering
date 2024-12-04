@@ -120,42 +120,31 @@ const HeroSection = () => {
     setselectedCompany(idx)
   }
 
-  useEffect(()=>{
-    window.addEventListener("click",(event)=>{
-      if(event.target.classList.contains("dropdown-sidebar")){
-        sethoveredIndex(null)
-      }
-    })
-  },[])
-
   useEffect(() => {
-  const handleClickOutside = (event) => {
-    // Ensure the click is outside the dropdown
-    if (dropDownRef.current && !dropDownRef.current.contains(event.target)) {
-      sethoveredIndex(null);
-    }
-  };
+    const handleClickOutside = (event) => {
+      if (
+        hoveredIndex !== null &&
+        dropDownRef.current &&
+        !dropDownRef.current.contains(event.target)
+      ) {
+        sethoveredIndex(null);
+      }
+    };
 
-  // Add event listener for clicks on the window
-  window.addEventListener("click", handleClickOutside);
+    window.addEventListener("click", handleClickOutside);
 
-  // Cleanup the event listener when the component is unmounted
-  return () => {
-    window.removeEventListener("click", handleClickOutside);
-  };
-}, []);
+    // Cleanup event listener
+    return () => {
+      window.removeEventListener("click", handleClickOutside);
+    };
+  }, [hoveredIndex]);
+
+
 
 const handleSlideIndex= (idx)=>{
   setActiveSlide(idx)
 }
 
-const memorizedData=useMemo(()=>{
-  
-},[selectedPlant,hoveredIndex])
-
-  // console.log(dropDownAbove,"dropDownAbove")
-  // console.log(selectedPlant)
-  console.log(hoveredIndex,"hoveredIndex")
 
   return (
     <>
@@ -170,9 +159,9 @@ const memorizedData=useMemo(()=>{
 
           {/* --------------------------------Grid------------------------------- */}
 
-          <div ref={dropDownRefParent} className='grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 px-2 md:gap-5'>
-            <div  className='dropdown-sidebar w-full md:h-[70vh] lg:h-[95vh] px-1 bg-gradient-to-l hidden md:block from-[rgb(4,39,53)] to-[rgb(32,130,85)] overflow-y-scroll'>
+          <div className='grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 px-2 md:gap-5'>
 
+            <div ref={dropDownRef} className='dropdown-sidebar w-full md:h-[70vh] lg:h-[95vh] px-1 bg-gradient-to-l hidden md:block from-[rgb(4,39,53)] to-[rgb(32,130,85)] overflow-y-scroll'>
               {projectsData.map((object, i) => {
                 return (
                   <>

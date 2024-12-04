@@ -95,7 +95,7 @@ const About = () => {
 
     return (
         <>
-            <div ref={aboutRef} id='consAbout' className='w-full h-max px-3 lg:px-[100px] py-4 md:py-9 overflow-hidden'>
+            <div ref={aboutRef} id='consAbout' className='w-full min-h-screen px-3 lg:px-[100px] py-4 md:py-9 overflow-hidden'>
                 <h1 ref={headingRef} className='text-center text-[30px]'>About Us</h1>
 
                 <div className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 mt-3 md:mt-7 lg:mt-9 gap-9'>
