@@ -8,10 +8,19 @@ import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
     const formRef = useRef();
     const contactRef = useRef();
-    const [isWhatsAppModalOpen, setWhatsAppModalOpen] = useState(false);
+    const [watsapp, setwatsapp] = useState(false);
     const [whatsAppMessage, setWhatsAppMessage] = useState("");
-    const dispatch=useDispatch()
-    
+    const dispatch = useDispatch()
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > window.innerHeight) {
+                setwatsapp(true)
+            } else {
+                setwatsapp(false)
+            }
+        })
+    }, [])
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
@@ -28,8 +37,8 @@ const Contact = () => {
             })
             .then((result) => {
                 toast.success("Message sent successfully!", {
-                    position:"top-center",
-                    autoClose:1500
+                    position: "top-center",
+                    autoClose: 1500
                 });
             }, (error) => {
                 toast.error(`Error: ${error.text}`, {
@@ -49,16 +58,16 @@ const Contact = () => {
         setWhatsAppMessage(""); // Reset the message
     };
 
-    const handlebutton=()=>{
-        toast.success("Hello world",{
-            position:"top-center",
-            autoClose:1500
+    const handlebutton = () => {
+        toast.success("Hello world", {
+            position: "top-center",
+            autoClose: 1500
         })
     }
-
+    console.log(watsapp, "watsapp")
     return (
         <>
-            <ToastContainer/>
+            <ToastContainer />
             <div id='consContact' ref={contactRef} className='bg-gray-200 contactSection'>
                 <section className="">
                     <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -86,42 +95,23 @@ const Contact = () => {
                     </div>
                 </section>
 
+                <div
+                    className={`w-[50px] fixed transform ${watsapp ? "translate-y-0 bottom-9" : "-translate-y-[500px]"
+                        } transition-transform duration-700 ease-in-out cursor-pointer right-5 z-20`}
+                    title="watsapp"
+                >
+                    <a href="https://wa.me/+923454014436" target="_blank" rel="noopener noreferrer">
+                        <img
+                            className="w-full h-full"
+                            src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857807/watsapp_pyr5pq.png"
+                            alt=""
+                        />
+                    </a>
+                </div>
+
+
             </div>
 
-            {/* <div onClick={() => setWhatsAppModalOpen(true)} className='w-[50px] cursor-pointer fixed right-9 bottom-[60px]'>
-                <img className='w-full h-full' src={watsapp} alt="" />
-            </div> */}
-
-            {/* WhatsApp Message Modal */}
-            {/* {isWhatsAppModalOpen && (
-                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-                    <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
-                        <h3 className="text-xl font-semibold mb-4">Send WhatsApp Message</h3>
-                        <form onSubmit={handleWhatsAppSubmit}>
-                            <textarea
-                                value={whatsAppMessage}
-                                onChange={(e) => setWhatsAppMessage(e.target.value)}
-                                placeholder="Type your message here..."
-                                className="w-full p-2 border rounded-md mb-4"
-                                rows="4"
-                                required
-                            />
-                            <div className="flex justify-end gap-2">
-                                <button
-                                    type="button"
-                                    onClick={() => setWhatsAppModalOpen(false)}
-                                    className="py-2 px-4 bg-gray-400 text-white rounded-lg"
-                                >
-                                    Cancel
-                                </button>
-                                <button type="submit" className="py-2 px-4 bg-blue-600 text-white rounded-lg">
-                                    Send
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            )} */}
         </>
     );
 }

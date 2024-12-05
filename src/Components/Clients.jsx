@@ -85,7 +85,7 @@ const Clients = () => {
             <div ref={clientRef} id='consClient' className='w-full lg:h-screen py-4 pb-9 sm:pb-0 lg:py-[50px] px-3 lg:px-9 overflow-hidden'>
                 <h1 className='text-3xl text-center font-[600]'>Our Clients</h1>
                 
-                <div className='lg:w-[70%] text-center mt-9 text-xl mx-auto text-justify sm:text-center'>Our valued clients are at the heart of everything we build. With trust and collaboration, we deliver tailored solutions that exceed expectations, creating long-lasting partnerships and remarkable results.</div>
+                <div className='lg:w-[70%] text-center mt-9 sm:text-xl mx-auto text-justify sm:text-center'>Our valued clients are at the heart of everything we build. With trust and collaboration, we deliver tailored solutions that exceed expectations, creating long-lasting partnerships and remarkable results.</div>
 
                 {/* Left-to-Right Slider */}
                 <div className='w-full md:h-[200px] mt-[45px]'>

@@ -153,7 +153,7 @@ const handleSlideIndex= (idx)=>{
           className='h-[5px] bg-blue-600 fixed z-20 top-0 left-0 transition-all duration-300'
           style={{ width: `${progress}%` }}
         ></div>
-        {/* <Navbar /> */}
+        <Navbar />
       <div id='consHome' ref={homeRef} className='constructionHeroSec w-full py-1 md:p-3'>
 
         <div className='w-full h-full'>

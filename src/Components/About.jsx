@@ -16,53 +16,6 @@ const About = () => {
     const rightDiv=useRef()
     const headingRef=useRef()
 
-    // useEffect(()=>{
-    //     gsap.fromTo(
-    //         leftDiv.current,
-    //         {x:"-200%"},
-    //         {
-    //             x:"0",
-    //             scrollTrigger:{
-    //                 trigger:leftDiv.current,
-    //                 start:"Top 80%",
-    //                 end:"Top 40%",
-    //                 scrub:1,
-    //                 markers:false,
-    //             }
-    //         }
-    //     )
-        
-    //     gsap.fromTo(
-    //         rightDiv.current,
-    //         {x:"200%"},
-    //         {
-    //             x:"0",
-    //             scrollTrigger:{
-    //                 trigger:rightDiv.current,
-    //                 start:"Top 80%",
-    //                 end:"Top 40%",
-    //                 scrub:1,
-    //                 markers:false,
-    //             }
-    //         }
-    //     )
-
-    //     gsap.fromTo(
-    //         headingRef.current,
-    //         {fontSize:"2px"},
-    //         {
-    //             fontSize:"30px",
-    //             scrollTrigger:{
-    //                 trigger:headingRef.current,
-    //                 start:"Top 100%",
-    //                 end:"Top 60%",
-    //                 scrub:1,
-    //                 markers:false,
-    //             }
-    //         }
-    //     )
-    // },[])
-
     useEffect(() => {
         window.addEventListener("scroll", () => {
             dispatch(constructionAbout(aboutRef.current.getBoundingClientRect().top))
@@ -70,7 +23,7 @@ const About = () => {
     }, [])
 
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,

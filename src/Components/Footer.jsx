@@ -68,7 +68,9 @@ const Footer = () => {
                     <h1 className='text-white font-[500] text-xl'>You can find us at</h1>
                     <div className='flex items-center mt-5'>
                         <div className='w-[40px] h-[40px] cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='watsapp'>
-                            <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857807/watsapp_pyr5pq.png" alt="" />
+                           <a href="https://wa.me/+923454014436" target="_blank" rel="noopener noreferrer">
+                              <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857807/watsapp_pyr5pq.png" alt="" />
+                            </a>
                         </div>
                         <div className='w-[40px] h-[40px] ml-[] cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='instagram'>
                             <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857806/linkedin_egzsvk.png" alt="" />
