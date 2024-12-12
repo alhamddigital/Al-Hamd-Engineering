@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
-import HeroSection from '../Components/HeroSection';
 import CategoryPlants from '../Components/CategoryPlants';
 import About from '../Components/About';
+import Hsection from '../Components/Hsection';
 
 // Lazy load the components
 const Values = React.lazy(() => import('../Components/Values'));
@@ -12,7 +12,7 @@ const Footer = React.lazy(() => import('../Components/Footer'));
 const Home = () => {
   return (
     <>
-      <HeroSection />
+      <Hsection/>
       <CategoryPlants />
       <About />
       <Suspense fallback={<div>Loading Values Section...</div>}>
