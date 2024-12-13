@@ -1,10 +1,12 @@
 import React from 'react'
+import { IoMdArrowDropdown } from "react-icons/io";
+import ProjectsDropdowns from './ProjectsDropdowns';
 
 const Navbar2 = () => {
     return (
-        <div className='flex justify-between items-center px-[100px] py-[15px] mt-2 bg-[rgb(31,66,93)]'>
+        <div className='w-full h-[60px] flex justify-between items-center md:px-[40px] lg:px-[100px] bg-[rgb(31,66,93)]'>
 
-            <div className='flex items-center mt-5'>
+            <div className='flex'>
                 <div className='w-[40px] h-[40px] cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='watsapp'>
                     <a href="https://wa.me/+923454014436" target="_blank" rel="noopener noreferrer">
                         <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857807/watsapp_pyr5pq.png" alt="" />
@@ -24,13 +26,21 @@ const Navbar2 = () => {
             </div>
 
             <ul className='flex'>
-                <li className='ml-7 font-[600] text-white cursor-pointer group relative'>Home
-                    <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
+                <a href="/">
+                    <li className='ml-7 font-[600] text-white cursor-pointer group relative'>Home
+                        <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
+                    </li>
+                </a>
+
+                {/* ------------------------------------Dropdowns----------------------------------- */}
+                <li className='ml-7 cursor-pointer group relative flex items-center'><span className='text-white font-[600]'>Projects</span>
+                    <div className='ml-1 text-white font-[600]'><IoMdArrowDropdown /></div>
+                    <div>
+                        <ProjectsDropdowns />
+                    </div>
                 </li>
+
                 <li className='ml-7 font-[600] text-white cursor-pointer group relative'>Services
-                    <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
-                </li>
-                <li className='ml-7 font-[600] text-white cursor-pointer group relative'>Projects
                     <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
                 </li>
                 <li className='ml-7 font-[600] text-white cursor-pointer group relative'>About Us

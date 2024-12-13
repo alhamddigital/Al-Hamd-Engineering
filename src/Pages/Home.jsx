@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <Hsection/>
-      <CategoryPlants />
+      {/* <CategoryPlants /> */}
       <About />
       <Suspense fallback={<div>Loading Values Section...</div>}>
         <Values />

@@ -5,10 +5,13 @@ import Navbar2 from './Navbar2'
 const Hsection = () => {
   return (
     <>
-        <div>
-            <Navbar1/>
-            <Navbar2/>
+      <Navbar1 />
+      <Navbar2 />
+      <div className='w-full h-[70vh]'>
+        <div className='w-full h-[80vh]'>
+          <img className='w-full h-full' src="https://wallpapers.com/images/hd/construction-background-qf7iizvernadg5jw.jpg" alt="" />
         </div>
+      </div>
     </>
   )
 }

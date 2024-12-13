@@ -26,7 +26,7 @@ const Footer = () => {
     }
 
     return (
-        <div className='w-full h-auto bg-[rgb(15,15,15)] py-9 md:mt-9 mt-4'>
+        <div className='w-full h-auto bg-[rgb(31,66,93)] py-9 md:mt-9 mt-4'>
             <div className='w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9'>
                 <div>
                     <h1 className='text-white text-3xl font-[700]'>Al Hamd</h1>

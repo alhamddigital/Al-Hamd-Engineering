@@ -3,6 +3,9 @@ import { createSlice } from "@reduxjs/toolkit";
 const engineeringSlice = createSlice({
     name: "engineering",
     initialState: {
+
+        selectedPlant:undefined,
+
         selectedMill: undefined,
 
         consHomeTop:0,
@@ -13,6 +16,11 @@ const engineeringSlice = createSlice({
 
     },
     reducers: {
+        plantsDispatch:(state,action)=>{
+            state.selectedPlant=action.payload
+            console.log(action.payload,"payload")
+        },
+
         handleCompanies: (state, action) => {
             state.selectedMill = action.payload
         },
@@ -36,6 +44,6 @@ const engineeringSlice = createSlice({
     }
 })
 
-export const { handleCompanies,constructionHome,constructionAbout,constructionValues,constructionClient,constructionContact } = engineeringSlice.actions
+export const {plantsDispatch, handleCompanies,constructionHome,constructionAbout,constructionValues,constructionClient,constructionContact } = engineeringSlice.actions
 export default engineeringSlice.reducer
 
