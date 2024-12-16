@@ -1,17 +1,37 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaPhone } from "react-icons/fa";
 import { FiClock } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
+import { FiMenu } from "react-icons/fi";
+import Sidebar from './Sidebar';
 
 const Navbar1 = () => {
+    const [checkMenu,setCheckMenu]=useState(false)
+    const handleMenu=()=>{
+        setCheckMenu(!checkMenu)
+    }
+
+    useEffect(() => {
+        if (checkMenu) {
+          document.body.style.overflow = "hidden"; 
+        } else {
+          document.body.style.overflow = "auto"; 
+        }
+        return () => {
+          document.body.style.overflow = "auto";
+        };
+      }, [checkMenu]);
+
     return (
-        <div className='w-full flex justify-between items-center py-[6px] md:px-[40px] lg:px-[100px]'>
+        <div className='w-full flex justify-between items-center py-[6px] md:px-[20px] pl-1 pr-2 lg:px-[100px]'>
 
-            <div className='w-[120px]'>
-                <img className='w-full' src="https://res.cloudinary.com/dqfjfh5wm/image/upload/v1732788965/fr82i0vhs2yxfrnicxqx.png" alt="" />
-            </div>
+            <a href="/">
+                <div className='w-[120px] cursor-pointer'>
+                    <img className='w-full' src="https://res.cloudinary.com/dqfjfh5wm/image/upload/v1732788965/fr82i0vhs2yxfrnicxqx.png" alt="" />
+                </div>
+            </a>
 
-            <div className='flex'>
+            <div className='flex hidden md:flex'>
                 <div>
                     <div className='text-[rgb(226,31,47)]'><FaPhone /></div>
                     <p className='mt-1'>Call Us Anytime</p>
@@ -28,6 +48,12 @@ const Navbar1 = () => {
                     <p>alhamddigitalservices@gmail.com</p>
                 </div>
             </div>
+
+            <div onClick={handleMenu} className='text-3xl block md:hidden cursor-pointer'>
+                <FiMenu />
+            </div>
+
+            {checkMenu && <Sidebar setCheckMenu={setCheckMenu} />}
 
         </div>
     )

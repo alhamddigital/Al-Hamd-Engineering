@@ -21,11 +21,11 @@ const ProjectsDescription = () => {
 
 
   return (
-    <div className='w-full h-full py-[40px] md:px-[40px] lg:px-[100px]'>
+    <div className='w-full h-full py-2 sm:py-[40px] px-1 md:px-[40px] lg:px-[100px] overflow-hidden'>
 
-      <p className='text-center text-4xl font-[600] text-[rgb(31,66,93)]'>{project.name}</p>
+      <p className='text-center text-2xl sm:text-4xl font-[600] text-[rgb(31,66,93)]'>{project.name}</p>
 
-      <div className='w-full grid grid-cols-2 mt-9 md:gap-[30px] lg:gap-[80px]'>
+      <div className='w-full grid grid-cols-1 lg:grid-cols-2 mt-3 sm:mt-9 md:gap-[30px] lg:gap-[80px]'>
 
         <div>
           <h1 className='text-xl text-[rgb(31,66,93)] font-[600]'>Innovative Engineering at Its Best</h1>
@@ -38,13 +38,13 @@ const ProjectsDescription = () => {
           <p className='text-justify mt-1'>Every project by <span className='text-[rgb(102,102,102)] font-[600]'>Al Hamd Engineering Services </span>is a testament to our commitment to client satisfaction and long-term reliability. Our focus is on understanding each client’s specific needs and delivering customized solutions. These plants are not just infrastructure but living examples of industrial growth and technological advancement.</p>
         </div>
 
-        <div className='w-full h-full'>
+        <div className='w-full h-full mt-4 sm:mt-0'>
           <Slider {...settings}>
             {
               project.images.map((e, i) => {
                 return (
                   <div className='w-[100%] h-[220px] md:h-[400px] lg:h-[500px]'>
-                    <img src={e} className='w-full h-full' alt="" />
+                    <img src={e} className='w-full h-full object-cover' alt="" />
                   </div>
                 )
               })

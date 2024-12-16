@@ -1,10 +1,11 @@
 import React from 'react'
 import { IoMdArrowDropdown } from "react-icons/io";
 import ProjectsDropdowns from './ProjectsDropdowns';
+import { Link } from 'react-router-dom';
 
 const Navbar2 = () => {
     return (
-        <div className='w-full h-[60px] flex justify-between items-center md:px-[40px] lg:px-[100px] bg-[rgb(31,66,93)]'>
+        <div className='w-full h-[60px] flex justify-between items-center md:px-[20px] lg:px-[100px] bg-[rgb(31,66,93)] hidden md:flex'>
 
             <div className='flex'>
                 <div className='w-[40px] h-[40px] cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='watsapp'>
@@ -40,9 +41,12 @@ const Navbar2 = () => {
                     </div>
                 </li>
 
-                <li className='ml-7 font-[600] text-white cursor-pointer group relative'>Services
-                    <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
-                </li>
+                <a href="/services">
+                    <li className='ml-7 font-[600] text-white cursor-pointer group relative'>Services
+                        <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
+                    </li>
+                </a>
+
                 <li className='ml-7 font-[600] text-white cursor-pointer group relative'>About Us
                     <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
                 </li>

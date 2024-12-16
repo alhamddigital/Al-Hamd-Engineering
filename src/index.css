@@ -20,8 +20,8 @@ html {
   box-sizing: border-box;
 }
 
-.constructionHeroSec {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('https://wallpapers.com/images/featured/civil-engineering-pa6hvqgpaqfw6mgb.jpg');
+.consHerosection {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://ligaasuransi.com/wp-content/uploads/2022/03/tower-cranes.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@ html {
 
 /* Scrollbar container */
 ::-webkit-scrollbar {
-  width: 12px; /* Width of the vertical scrollbar */
+  width: 6px; /* Width of the vertical scrollbar */
   height: 12px; /* Height of the horizontal scrollbar */
 }
 

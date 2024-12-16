@@ -449,34 +449,34 @@ export const projectsData = [
             {
                 name: "Whole Food at Layyah",
                 images:[
-                "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",    
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857794/WHOLE_FOOD_MILL_LAYYAH_14_uf8chu.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857786/WHOLE_FOOD_MILL_LAYYAH_15_f2ojcb.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857781/WHOLE_FOOD_MILL_LAYYAH_8_ykmibc.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857780/WHOLE_FOOD_MILL_LAYYAH_17_n7lm0o.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857780/WHOLE_FOOD_MILL_LAYYAH_6_ijtncn.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857778/WHOLE_FOOD_MILL_LAYYAH_16_nte4ir.jpg"
                 ],
             },
             {
                 name: "Whole Food at Bhakkar",
                 images:[
-                "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",    
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857785/WHOLE_FOOD_FEED_BHAKHAR_1_wz19hg.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857800/WHOLE_FOOD_FEED_BHAKHAR_11_ioj4i1.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857806/WHOLE_FOOD_FEED_BHAKHAR_7_semgfa.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857804/WHOLE_FOOD_FEED_BHAKHAR_2_lys2th.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857803/WHOLE_FOOD_FEED_BHAKHAR_8_fqxxjq.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857790/WHOLE_FOOD_FEED_BHAKHAR_10_hcyx1j.jpg",    
                 ],
             },
             {
                 name: "Ultimate Whole Food",
                 images:[
-                "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",    
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857804/Ultimate_whole_food_feed_mills_2_qafqv9.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857805/Ultimate_whole_food_feed_mills_5_bsohuc.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857802/Ultimate_whole_food_feed_mills_1_or9zlf.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857804/WHOLE_FOOD_FEED_BHAKHAR_9_cxjjko.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857790/WHOLE_FOOD_FEED_BHAKHAR_10_hcyx1j.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857804/WHOLE_FOOD_FEED_BHAKHAR_9_cxjjko.jpg"
                 ],
             },
         ]
@@ -488,12 +488,12 @@ export const projectsData = [
             {
                 name: "Meerpur Khas Paper Plant",
                 images:[
-                "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",    
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857728/mirpur_khas_paper_plant_10_im99um.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857728/mirpur_khas_paper_plant_1_jggtyp.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857728/mirpur_khas_paper_plant_11_cpi4ou.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857728/mirpur_khas_paper_plant_14_k9qltm.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857729/mirpur_khas_paper_plant_15_vk0wxs.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857729/mirpur_khas_paper_plant_20_w4o3ol.jpg",    
                 ],
             }
         ]
