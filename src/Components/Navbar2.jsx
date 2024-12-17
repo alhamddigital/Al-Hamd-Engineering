@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 
 const Navbar2 = () => {
     return (
-        <div className='w-full h-[60px] flex justify-between items-center md:px-[20px] lg:px-[100px] bg-[rgb(31,66,93)] hidden md:flex'>
+        <div className='w-full h-[60px] flex justify-between items-center md:px-[20px] lg:px-[100px] bg-[rgb(31,66,93)] hidden md:flex sticky top-[80px] left-0 z-10'>
 
-            <div className='flex'>
+            <div className='flex items-center'>
                 <div className='w-[40px] h-[40px] cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='watsapp'>
                     <a href="https://wa.me/+923454014436" target="_blank" rel="noopener noreferrer">
                         <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857807/watsapp_pyr5pq.png" alt="" />
@@ -46,10 +46,11 @@ const Navbar2 = () => {
                         <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
                     </li>
                 </a>
-
-                <li className='ml-7 font-[600] text-white cursor-pointer group relative'>About Us
-                    <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
-                </li>
+                <a href="/about">
+                    <li className='ml-7 font-[600] text-white cursor-pointer group relative'>About Us
+                        <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
+                    </li>
+                </a>
                 <li className='ml-7 font-[600] text-white cursor-pointer group relative'>Contact Us
                     <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
                 </li>

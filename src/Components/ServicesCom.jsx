@@ -45,7 +45,7 @@ const ServicesCom = () => {
         },
         {
             name: "Dairy Form",
-            image:"https://res.cloudinary.com/djpvajewe/image/upload/v1732857732/bin_raiz_dairy_farm_patoki_3_zlvx01.jpg",
+            image: "https://res.cloudinary.com/djpvajewe/image/upload/v1732857732/bin_raiz_dairy_farm_patoki_3_zlvx01.jpg",
             description: "Providing modern and efficient construction solutions for dairy farms with innovative design and durable infrastructure."
         },
         {
@@ -78,8 +78,8 @@ const ServicesCom = () => {
                                 <div className='p-3 flex'>
                                     <div className='w-[12px] h-[150px] bg-red-500'></div>
                                     <div className='ml-2'>
-                                    <h1 className='text-center text-xl'>{e.name}</h1>
-                                    <p className='mt-1'>{e.description}</p>
+                                        <h1 className='text-center text-xl'>{e.name}</h1>
+                                        <p className='mt-1 text-justify'>{e.description}</p>
                                     </div>
                                 </div>
                             </div>

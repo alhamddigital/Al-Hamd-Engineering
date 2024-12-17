@@ -7,11 +7,14 @@ const Hsection = () => {
     <>
       <Navbar1 />
       <Navbar2 />
-      <div className='w-full h-[80vh] consHerosection p-[1px] overflow-hidden '>
-        <div className='w-full w-full md:w-[600px] mt-[100px] ml-2 md:mt-[100px] md:ml-[100px]'>
+      <div className='w-full h-[80vh] overflow-hidden'>
+        <div className='w-full h-full'>
+          <video className='w-full h-full object-cover' src="https://res.cloudinary.com/dqfjfh5wm/video/upload/v1732194177/video_a9k8ui.mp4" autoPlay loop muted></video>
+        </div>
+        {/* <div className='w-full w-full md:w-[600px] mt-[100px] ml-2 md:mt-[100px] md:ml-[100px]'>
           <h1 className='text-[rgb(255,255,255)] text-[27px] sm:text-5xl font-[600]'>Constructing Dreams<br/> into Reality</h1>
           <p className='text-white mt-5 sm:text-xl'>Delivering innovative, sustainable, and reliable construction solutions tailored to meet modern infrastructure and industry needs</p>
-        </div>
+        </div> */}
       </div>
     </>
   )

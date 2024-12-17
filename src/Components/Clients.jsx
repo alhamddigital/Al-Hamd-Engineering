@@ -17,12 +17,21 @@ const Clients = () => {
     }, [])
 
     const clientsArray = [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1K44u3U5Nh5GUxEdw7cogE9Y35dkxsG5BPQ&s",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5fvR3MfxrO7P4RyfFQfYKsOEeiocysw77gA&s",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx_AwAlNTaHb80kL8upXPT7iFB4qSG_avugg&s",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1734416767/Tandianwala_Sugar_a8e138.jpg",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1734416767/Shahmurad_sugar_vlqmao.jpg",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1734416767/Shafi-Group-Logo_utplsh.png",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1734416764/Izfaar_pharmaceutical_hn4sq3.png",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREdSvhI7dGCgkMid3CAIUHWeGU-dh_oo9Rcw&s",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkkRCQUk_P4nYlUjkQdNdy4ip7VfXjBIUnEg&s",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8rMFLfqi_iHqWDZZcSXripZC7lNrpm3XfRQ&s",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1734416764/RYK_h3ozza.png",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1734416764/SGM_Sugar_gnb3rb.jpg",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1734416764/Nishat_aseqch.jpg",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1734416764/NDSML_ptbfqk.png",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1734416763/Anjum_Textile_y35gil.jpg",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1734416763/Alliance_sugar_vb8qnk.jpg",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1734416763/al_moiz_steel_xvzv7k.png",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1734416763/Mehran_Sugar_m6fxtc.jpg",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1734416763/dynamic_spinning_k8ic3q.jpg"
+
     ];
 
     const leftToRightSettings = {

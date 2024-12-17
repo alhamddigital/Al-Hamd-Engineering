@@ -38,11 +38,11 @@ const Footer = () => {
                     <div className=''>
                         <h1 className='text-white text-2xl font-[500]'>Get in Touch</h1>
                         <ul>
-                            <li className='text-white flex items-center cursor-pointer mt-5 transition-all hover:text-yellow-500 font-[400]'><MdEmail /> <h1 className='ml-3'>alhamd@alhamdges.com.pk</h1></li>
-                            <li className='text-white flex items-center cursor-pointer mt-2 transition-all hover:text-yellow-500 font-[400]'><FaPhoneAlt /> <h1 className='ml-3'>+92 322 4326125</h1></li>
+                            <li className='text-white flex items-center cursor-pointer mt-5 transition-all hover:text-yellow-500 font-[400]'><MdEmail /> <p className='ml-3'>alhamd@alhamdges.com.pk</p></li>
+                            <li className='text-white flex items-center cursor-pointer mt-2 transition-all hover:text-yellow-500 font-[400]'><FaPhoneAlt /> <p className='ml-3'>+92 322 4326125</p></li>
                             <div onClick={openModal} className='text-white flex items-center cursor-pointer mt-2 transition-all hover:text-yellow-500 font-[400]'>
                                 <FaLocationDot />
-                                <h1 className='ml-3'>55-A Muhafiz Town Lahore Pakistan</h1>
+                                <p className='ml-3'>55-A Muhafiz Town Lahore Pakistan</p>
                             </div>
                         </ul>
                         {isModalOpen && (
