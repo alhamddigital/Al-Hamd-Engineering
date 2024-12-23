@@ -25,12 +25,12 @@ const ServicesCom = () => {
         },
         {
             name: "Steel Mills",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvus6OZfWftN-p41Nyi2SwtnwknKvdqy60XiZgiulDmwiE4bmDaF32_CekYTX5U0AWFHs&usqp=CAU",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-V54X6aY_fI1a0OSgblrRkr1cInKGvtQMiQ&s",
             description: "Delivering robust and efficient construction solutions for steel mills with advanced technology and durable infrastructure."
         },
         {
             name: "Cement Plant",
-            image: "https://www.nation.com.pk/print_images/large/2014-10-26/maple-leaf-dg-cement-unveil-results-1414281011-4935.jpg",
+            image: "https://res.cloudinary.com/djpvajewe/image/upload/v1734953204/WhatsApp_Image_2024-12-17_at_11.31.30_b7hw8l.jpg",
             description: "Offering durable and efficient construction solutions for cement plants with advanced technology and reliable infrastructure."
         },
         {
@@ -45,7 +45,7 @@ const ServicesCom = () => {
         },
         {
             name: "Dairy Form",
-            image: "https://res.cloudinary.com/djpvajewe/image/upload/v1732857732/bin_raiz_dairy_farm_patoki_3_zlvx01.jpg",
+            image: "https://shedsmaker.com/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-10-at-16.34.08.jpeg",
             description: "Providing modern and efficient construction solutions for dairy farms with innovative design and durable infrastructure."
         },
         {
@@ -55,7 +55,7 @@ const ServicesCom = () => {
         },
         {
             name: "Textile",
-            image: "https://res.cloudinary.com/djpvajewe/image/upload/v1732857749/DYNAMIC_TEXTILES_jo09ce.jpg",
+            image: "https://res.cloudinary.com/djpvajewe/image/upload/v1734953349/Anjum_textile_maeqsd.jpg",
             description: "Delivering advanced and efficient construction solutions for textile plants with modern technology and durable infrastructure."
         },
         {

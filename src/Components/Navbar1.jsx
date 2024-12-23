@@ -50,7 +50,7 @@ const Navbar1 = () => {
                 <div className='ml-5'>
                     <div className='text-[rgb(226,31,47)]'><MdEmail /></div>
                     <p className='mt-1'>Email Us</p>
-                    <p>alhamddigitalservices@gmail.com</p>
+                    <p>@gmail.com</p>
                 </div>
             </div>
 
