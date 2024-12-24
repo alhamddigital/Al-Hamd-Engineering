@@ -51,9 +51,11 @@ const Navbar2 = () => {
                         <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
                     </li>
                 </a>
-                <li className='ml-7 font-[600] text-white cursor-pointer group relative'>Contact Us
-                    <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
-                </li>
+                <a href="/contact">
+                    <li className='ml-7 font-[600] text-white cursor-pointer group relative'>Contact Us
+                        <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
+                    </li>
+                </a>
             </ul>
         </div>
     )

@@ -1,6 +1,7 @@
 export const projectsData = [
     {
         name: "Sugar Mills",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1732603737/allaince_1_ysbjkh.jpg",
         plants: [
             {
                 name: "Hussain Sugar Mills",
@@ -216,6 +217,7 @@ export const projectsData = [
     },
     {
         name: "Power Plant",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1732857757/RYK_POWER_PLANT_9_luhmye.jpg",
         plants: [
             {
                 name: "18-MW at ISM Boiler 60 Ton",
@@ -332,6 +334,7 @@ export const projectsData = [
     },
     {
         name: "Switch Yard",
+        singleImage:"https://i0.wp.com/auipower.com/wp-content/uploads/2020/07/IMG_0032.jpeg?resize=1170%2C694&ssl=1",
         plants: [
             {
                 name: "RYK Coo-Gen Switch Yard",
@@ -349,6 +352,7 @@ export const projectsData = [
     },
     {
         name: "Water Treatment",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1732857760/water_treatment_8_xhyiqw.jpg",
         plants: [
             {
                 name: "Water Treatment Plant At ASM",
@@ -377,6 +381,7 @@ export const projectsData = [
     },
     {
         name: "Ethonal Plants",
+        singleImage:"https://www.dsengineers.com/files/uploads/2020/08/Ethanol-ABF-ALCO-BioFuel-bioethanol-plant-Belgium-2.jpg",
         plants: [
             {
                 name: "Ethonal Plant",
@@ -394,6 +399,7 @@ export const projectsData = [
     },
     {
         name: "Chemical Plants",
+        singleImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-oKEd2toBSzs6mjU_MY_oe8Oeu3JI_Gm9Ag&s",
         plants: [
             {
                 name: "Hypo Tower at Sitara Chemical",
@@ -411,6 +417,7 @@ export const projectsData = [
     },
     {
         name: "Steel Mills",
+        singleImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-V54X6aY_fI1a0OSgblrRkr1cInKGvtQMiQ&s",
         plants: [
             {
                 name: "Al-Moiz Steel Mill",
@@ -428,6 +435,7 @@ export const projectsData = [
     },
     {
         name: "Cement Plants",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1734953204/WhatsApp_Image_2024-12-17_at_11.31.30_b7hw8l.jpg",
         plants: [
             {
                 name: "Water Reserver at Pioneer",
@@ -445,6 +453,7 @@ export const projectsData = [
     },
     {
         name: "Feed Mills",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1732857804/WHOLE_FOOD_FEED_BHAKHAR_9_cxjjko.jpg",
         plants: [
             {
                 name: "Whole Food at Layyah",
@@ -484,6 +493,7 @@ export const projectsData = [
     },
     {
         name: "Paper Plant",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1732857728/mirpur_khas_paper_plant_14_k9qltm.jpg",
         plants: [
             {
                 name: "Meerpur Khas Paper Plant",
@@ -501,6 +511,7 @@ export const projectsData = [
     },
     {
         name: "Dairy Form",
+        singleImage:"https://shedsmaker.com/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-10-at-16.34.08.jpeg",
         plants: [
             {
                 name: "Bin Riaz Dairy Form",
@@ -528,7 +539,8 @@ export const projectsData = [
 
     },
     {
-        name: "Ware House",
+        name: "WareHouse",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1732857734/warehouse1_mmir3l.png",
         plants: [
             {
                 name: "RHSM Godown 60,000 Sft",
@@ -590,6 +602,7 @@ export const projectsData = [
     },
     {
         name: "Roads",
+        singleImage:"https://media.istockphoto.com/id/496119890/photo/new-road-construction.jpg?s=612x612&w=0&k=20&c=yyBsEAcd07RME72Dlykh5x018xvv7dG3lQ55y_wrvlA=",
         plants: [
             {
                 name: "Millat Road Faisalabad",
@@ -618,6 +631,7 @@ export const projectsData = [
     },
     {
         name: "Hospitals",
+        singleImage:"https://advinhealthcare.com/wp-content/uploads/2022/12/Types-of-Hospitals-1-1024x683.jpg",
         plants: [
             {
                 name: "IZFAR Pharmacitucal",
@@ -646,6 +660,7 @@ export const projectsData = [
     },
     {
         name: "Textiles",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1734953349/Anjum_textile_maeqsd.jpg",
         plants: [
             {
                 name: "Anjum Textile Mills",
@@ -685,6 +700,7 @@ export const projectsData = [
     },
     {
         name: "Sports Complex",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1732857750/sport_1_un5kkb.jpg",
         plants: [
             {
                 name: "Al-Moiz Sports Complex",
@@ -702,6 +718,7 @@ export const projectsData = [
     },
     {
         name: "Offices",
+        singleImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhwt1B3wYeHcErabp24KGQGGaOBKPO3rudmw&s",
         plants: [
             {
                 name: "Admin Office RYK Coo-Gen",
@@ -753,6 +770,7 @@ export const projectsData = [
     },
     {
         name: "Schools",
+        singleImage:"https://t3.ftcdn.net/jpg/00/27/64/10/360_F_27641058_GHtFBBN4NY8QIxq0lFAFwPLCPcvw9VYG.jpg",
         plants: [
             {
                 name: "Al Moiz School",
@@ -770,6 +788,7 @@ export const projectsData = [
     },
     {
         name: "Houses/Hostel",
+        singleImage:"https://res.cloudinary.com/brickandbatten/image/upload/w_464,h_283,dpr_2/f_auto,q_auto/v1713267421/wordpress_assets/313364-Alabaster-Caviar-TeakStain-A-copy.jpg?_i=AA",
         plants: [
             {
                 name: "Al-Moiz Officer Hostel",
@@ -821,6 +840,7 @@ export const projectsData = [
     },
     {
         name: "Mosques",
+        singleImage:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Mosque_MG_0823.jpg/640px-Mosque_MG_0823.jpg",
         plants: [
             {
                 name: "Al-Moiz Mosque",

@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdDescription } from 'react-icons/md'
+import { projectsData } from './CompaniesArray'
 
 const ServicesCom = () => {
     const array = [
