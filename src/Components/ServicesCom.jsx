@@ -1,8 +1,12 @@
 import React from 'react'
 import { MdDescription } from 'react-icons/md'
 import { projectsData } from './CompaniesArray'
+import { Link } from 'react-router-dom'
 
 const ServicesCom = () => {
+    const handleProject = (object) => {
+        localStorage.setItem("mainProject", JSON.stringify(object))
+    }
     const array = [
         {
             name: "Sugar Mills",
@@ -72,17 +76,20 @@ const ServicesCom = () => {
 
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-5 sm:mt-9 gap-6'>
                 {
-                    array.map((e, i) => {
+                    projectsData.map((e, i) => {
                         return (
-                            <div key={i} className='customShadow'>
-                                <div className='w-full h-[200px]'><img className='w-full h-full object-cover' src={e.image} alt="" /></div>
-                                <div className='p-3 flex'>
-                                    <div className='w-[12px] h-[150px] bg-red-500'></div>
-                                    <div className='ml-2'>
-                                        <h1 className='text-center text-xl'>{e.name}</h1>
-                                        <p className='mt-1 text-justify'>{e.description}</p>
+                            <div onClick={() => handleProject(e)} key={i} className='customShadow'>
+                                <Link to="/servicesprojects">
+                                    <div className='w-full h-[200px]'><img className='w-full h-full object-cover' src={e.singleImage} alt="" /></div>
+                                    <div className='p-3 flex'>
+                                        <div className='w-[12px] h-[180px] bg-red-500'></div>
+                                        <div className='ml-2 flex justify-center items-center flex-col'>
+                                            <h1 className='text-xl'>{e.name}</h1>
+                                            <p className='mt-1 text-justify'>{e.description1}</p>
+                                            <button className='text-white bg-red-500 rounded cursor-pointer mt-5 px-2 py-1 '>Read More</button>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
                             </div>
                         )
                     })
