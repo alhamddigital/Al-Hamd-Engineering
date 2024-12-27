@@ -27,8 +27,8 @@ const Sidebar = ({ setCheckMenu }) => {
 
         <div className='mt-2'>
           <ul>
-            <li className='font-[600] mt-1 text-white'>Home</li>
-            <li className='font-[600] mt-1 text-white'>Services</li>
+            <li className='font-[600] mt-1 text-white'><a href="/">Home</a></li>
+            <li className='font-[600] mt-1 text-white'><a href="/services">Services</a></li>
 
             <li className='mt-1'><span className='font-[600] text-white'>Projects</span>
               <div className='ml-5'>
@@ -60,8 +60,8 @@ const Sidebar = ({ setCheckMenu }) => {
               </div>
             </li>
 
-            <li className='font-[600] mt-1 text-white'>About Us</li>
-            <li className='font-[600] mt-1 text-white'>Contact Us</li>
+            <li className='font-[600] mt-1 text-white'><a href="/about">About Us</a></li>
+            <li className='font-[600] mt-1 text-white'><a href="/contact">Contact Us</a></li>
           </ul>
         </div>
 

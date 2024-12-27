@@ -21,7 +21,7 @@ const ProjectsDropdowns = () => {
     }
     return (
         <>
-            <div className='w-[200px] h-[80vh] overflow-y-scroll bg-white rounded absolute top-[40px] left-0 z-10 invisible group-hover:visible duration-500'>
+            <div className='w-[200px] h-[80vh] bg-white rounded absolute top-[40px] left-0 z-10 invisible group-hover:visible duration-500'>
                 {
                     projectsData.map((e, i) => {
                         return (

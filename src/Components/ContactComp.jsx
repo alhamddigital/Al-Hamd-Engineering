@@ -51,7 +51,7 @@ const ContactComp = () => {
                     </div>
                     <div className='mt-5'>
                         <label className='font-[600] block'>Your Message <span className='text-red-500'>*</span></label>
-                        <textarea className='border border-[rgb(191,191,191)] mt-3 w-full' placeholder='Leave a comment...' rows={5} name="" id=""></textarea>
+                        <textarea className='border border-[rgb(191,191,191)] mt-3 w-full p-2' placeholder='Leave a comment...' rows={5} name="" id=""></textarea>
                     </div>
                     <button className='bg-blue-500 text-white rounded px-3 py-2 cursor-pointer mt-5'>Submit</button>
                 </div>

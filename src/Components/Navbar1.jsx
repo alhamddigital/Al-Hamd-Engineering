@@ -33,7 +33,7 @@ const Navbar1 = () => {
                     </a>
                 </div>
 
-                <h1 className='hidden sm:block sm:text-3xl sm:ml-5 font-[600] text-[rgb(226,31,47)] text-nowrap'>Al Hamd Engineering</h1>
+                <h1 className='hidden lg:block sm:text-3xl sm:ml-5 font-[600] text-[rgb(226,31,47)] text-nowrap'>Al Hamd Engineering</h1>
             </div>
 
             <div className='flex hidden md:flex'>

@@ -30,15 +30,15 @@ const ServicesProjectsComp = () => {
 
     return (
         <>
-            <div className='w-full lg:px-[100px] lg:py-[60px]'>
+            <div className='w-full px-3 md:px-[40px] lg:px-[100px] py-5 lg:py-[60px] overflow-hidden'>
                 <h1 className='text-4xl text-center'>{object?.name}</h1>
-                <div className='grid grid-cols-1 sm:grid-cols-2 mt-6 gap-[60px]'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 mt-6 gap-[20px] md:gap-[60px]'>
 
                     <div>
-                        <p className='text-4xl font-[600]'>{object.name} Construction Services by Al Hamd Engineering</p>
+                        <p className='text-2xl lg:text-4xl font-[600]'>{object.name} Construction Services by Al Hamd Engineering</p>
                         <p className='mt-5 text-justify'>{object.description2}</p>
                         <h1 className='font-[600] mt-3'>Here is a selection of projects we have successfully completed</h1>
-                        <ul className='mt-3'>
+                        <ul className='mt-3 px-4'>
                             {
                                 object?.plants?.map((e, i) => {
                                     return (
@@ -54,7 +54,7 @@ const ServicesProjectsComp = () => {
                             <Slider {...settings}>
                                 {images.length > 0 ? (
                                     images.map((e, i) => (
-                                        <div className='w-[100%] h-[220px] md:h-[400px] lg:h-[500px]' key={i}>
+                                        <div className='w-[100%] h-[220px] md:h-[400px]' key={i}>
                                             <img src={e} className='w-full h-full object-cover' alt="" />
                                         </div>
                                     ))

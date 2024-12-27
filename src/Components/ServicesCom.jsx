@@ -80,7 +80,7 @@ const ServicesCom = () => {
                         return (
                             <div onClick={() => handleProject(e)} key={i} className='customShadow'>
                                 <Link to="/servicesprojects">
-                                    <div className='w-full h-[200px]'><img className='w-full h-full object-cover' src={e.singleImage} alt="" /></div>
+                                    <div className='w-full h-[200px] group overflow-hidden'><img className='w-full h-full object-cover hover:scale-[1.2] duration-300' src={e.singleImage} alt="" /></div>
                                     <div className='p-3 flex'>
                                         <div className='w-[12px] h-[180px] bg-red-500'></div>
                                         <div className='ml-2 flex justify-center items-center flex-col'>
