@@ -8,67 +8,61 @@ export const projectsData = [
             {
                 name: "Hussain Sugar Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542034/hussain_sugar_mills_at_jarawala_2_tyrul7.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542033/hussain_sugar_mills_at_jarawala_1_nrwsut.jpg",
                 ],
             },
             {
                 name: "AlMaan Sugar Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542633/almaan_2_q7tgne.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542634/almaan_3_zretlk.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542635/almaan_4_fthgdr.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542635/almaan_5_aiedoq.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542633/almaan_1_wf3z6p.jpg"
                 ],
             },
             {
                 name: "Ittefaq Sugar Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543508/ittefaq_sugar_mills_9_fdnub1.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543507/ittefaq_sugar_mills_7_y68bk7.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543506/ittefaq_sugar_mills_8_hgelpn.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543504/ittefaq_sugar_mills_6_ld8yl3.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543503/ittefaq_sugar_mills_5_dfeyh2.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543502/ittefaq_sugar_mills_3_ktdkwm.jpg"
                 ],
             },
             {
                 name: "Al Moiz Sugar Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732605775/almoiz_2_sugar_mill_4_itqu2q.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732605758/almoiz_2_5_u3j03c.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732605757/almoiz_2_sugar_mill_2_lqvqli.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732605757/almoiz_2_sugar_mill_5_xj8zci.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732605757/almoiz_2_1_ctgju0.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732605754/almoiz_2_sugar_mill_1_kml5re.jpg"
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543536/almoiz_sugar_mills_38_tfqwmg.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543535/almoiz_sugar_mills_36_jqr8st.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543534/almoiz_sugar_mills_35_tytwfj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543533/almoiz_sugar_mills_32_e7c3bj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543530/almoiz_sugar_mills_29_bupahv.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543530/almoiz_sugar_mills_28_e1nekb.jpg"
                 ],
             },
             {
                 name: "Gulf Sugar Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543542/gulf_sugar_mills_1_xskfyb.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543549/gulf_sugar_mills_12_lwqns5.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543549/gulf_sugar_mills_9_h4cxtz.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543547/gulf_sugar_mills_6_w2hksh.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543543/gulf_sugar_mills_13_tiprhp.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543544/gulf_sugar_mills_11_mzfslu.jpg"
                 ],
             },
             {
                 name: "Dadu Sugar Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543552/dadu_sugar_mills_5_neukbd.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543550/dadu_sugar_mills_3_dc8ole.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543549/dadu_sugar_mills_1_fb94gm.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543550/dadu_sugar_mills_2_jxhppv.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543551/dadu_sugar_mills_4_gviiug.jpg"
                 ],
             },
             {
@@ -85,45 +79,42 @@ export const projectsData = [
             {
                 name: "Bandhi Sugar Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543559/bandi_7_qpnv0m.png",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543557/bandi_6_kyw29x.png",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543557/bandi_4_zzpcbq.png",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543555/bandi_5_vucirh.png",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543553/bandi_1_g0h9nd.png",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543554/bandi_2_ro2tav.png"
                 ],
             },
             {
                 name: "Tando Sugar Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732605376/tandoallah_yar_sugar_mills_4_cbq5mk.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732605375/tandoallah_yar_sugar_mills_5_nv8vn9.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732605375/tandoallah_yar_sugar_mills_6_fxdqsx.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732605374/tandoallah_yar_sugar_mills_3_aboyrt.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732605373/tandoallah_yar_sugar_mills_2_sxwroo.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732605373/tandoallah_yar_sugar_mills_1_sjzfuo.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543560/tandoallah_yar_sugar_mills_6_mqjdtc.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543559/tandoallah_yar_sugar_mills_5_lkfefe.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543559/tandoallah_yar_sugar_mills_4_nqnao2.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543558/tandoallah_yar_sugar_mills_3_u5qphp.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543557/tandoallah_yar_sugar_mills_2_fzyweq.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543557/tandoallah_yar_sugar_mills_1_eifgnk.jpg"
                 ],
             },
             {
                 name: "Sardar Sugar Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    ,"https://res.cloudinary.com/djpvajewe/image/upload/v1735542034/SGM_Sugar_mills_1_rkowyn.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542036/SGM_Sugar_mills_3_nexyzu.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542036/SGM_Sugar_mills_5_olaodo.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542035/SGM_Sugar_mills_4_mtxjsh.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542035/SGM_Sugar_mills_2_sukqp9.jpg",
                 ],
             },
             {
                 name: "Ghotki Sugar Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542038/ghotki_sugar_mills_4_ljgwsm.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542038/ghotki_sugar_mills_3_jx9ofw.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542037/ghotki_sugar_mills_2_xywug0.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542036/ghotki_sugar_mills_1_mvtslf.jpg"
                 ],
             },
             {
@@ -140,23 +131,20 @@ export const projectsData = [
             {
                 name: "Alliance Sugar Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732603735/alliance_3_o8hz88.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732603736/alliance_4_luoedi.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732603737/allaince_1_ysbjkh.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732603737/allaince_2_eiqiar.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732603737/alliance_5_uwvwj3.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732603737/alliance_6_yduzkg.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542051/alliance_7_qkhsvi.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542052/alliance_9_jqw8t6.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542046/alliance_17_wmubjp.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542045/alliance_16_btxm3k.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542045/alliance_15_bfcbh3.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542039/allaince_1_ycjmsa.jpg"
                 ],
             },
             {
                 name: "RYK Sugar Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542053/ryk_2_mpzd3d.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542054/ryk_wvqvwz.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542053/ryk_3_smcwfl.jpg",
                 ],
             },
             {
@@ -182,36 +170,32 @@ export const projectsData = [
                 ],
             },
             {
-                name: "Chasma Sugar Mills",
+                name: "Chashma Sugar Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542624/molasses_pond_chashma_sugar_mills_4_besz4i.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542107/molasses_pond_chashma_sugar_mills_3_yriopi.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542055/molasses_pond_chashma_sugar_mills_2_nfeyih.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542055/molasses_pond_chashma_sugar_mills_1_ijvkix.jpg"
                 ],
             },
             {
                 name: "Sillawali Sugar Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604934/sillawali_sugar_mills_8_u8r7ee.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604933/sillawali_sugar_mills_6_lyiji9.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604931/sillawali_sugar_mills_5_cd4mmy.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604931/sillawali_sugar_mills_2_xos7w1.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604935/sillawali_sugar_mills_9_kgtnt3.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604935/sillawali_sugar_mills_4_gn8bhk.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542626/sillawali_sugar_mills_2_me4hw0.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542627/sillawali_sugar_mills_5_rpxwsa.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542630/sillawali_sugar_mills_9_ghpy2r.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542639/sillawali_sugar_mills_1_oygxhr.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542631/sillawali_sugar_mills_7_ghumi1.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542628/sillawali_sugar_mills_6_wuadd4.jpg"
                 ],
             },
             {
                 name: "Daharki Sugar Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542632/daharki_sugar_mills_4_edw0cw.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542631/daharki_sugar_mills_3_eitvlu.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542631/daharki_sugar_mills_2_s7cgpn.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735542630/daharki_sugar_mills_1_qifjni.jpg"
                 ],
             },
             {
@@ -232,7 +216,7 @@ export const projectsData = [
         name: "Power Plant",
         description1:"Delivering reliable and efficient construction solutions for power plants with advanced technology and sustainable infrastructure.",
         description2:"At Al Hamd Engineering Services, we specialize in delivering high-efficiency power plant construction solutions at competitive prices across Pakistan. With a skilled and dedicated team, we take pride in being one of the leading power plant construction companies in the country.",
-        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1732857757/RYK_POWER_PLANT_9_luhmye.jpg",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1735543627/RYK_POWER_PLANT_16_ufvjcy.jpg",
         plants: [
             {
                 name: "18-MW at ISM Boiler 60 Ton",
@@ -259,12 +243,12 @@ export const projectsData = [
             {
                 name: "60-MW Coo-Gen Power Plant",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732602332/RYK_POWER_PLANT_3_pftycq.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732602329/RYK_POWER_PLANT_6_dpvzay.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732602329/RYK_POWER_PLANT_5_jlapcu.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732602324/RYK_POWER_PLANT_4_tm7sry.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732602324/RYK_POWER_PLANT_2_ztcfm7.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732602323/RYK_POWER_PLANT_1_z0isrs.jpg"
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543622/RYK_POWER_PLANT_1_yehyya.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543623/RYK_POWER_PLANT_1_is15vd.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543623/RYK_POWER_PLANT_10_hpr7rv.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543627/RYK_POWER_PLANT_16_ufvjcy.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543632/RYK_POWER_PLANT_6_z2yxdb.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543630/RYK_POWER_PLANT_4_bemmcd.jpg"
                 ],
             },
             {
@@ -351,17 +335,15 @@ export const projectsData = [
         name: "Switch Yard",
         description1:"Delivering advanced switchyard construction with precision, sustainability, and technology for reliable energy transmission solutions.",
         description2:"At Al Hamd Engineering Services, we offer expert switch yard construction services designed to meet the growing energy needs of Pakistan. With our experienced team, we are committed to delivering high-quality solutions that ensure optimal performance and safety.",
-        singleImage:"https://i0.wp.com/auipower.com/wp-content/uploads/2020/07/IMG_0032.jpeg?resize=1170%2C694&ssl=1",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1735543638/Swithch_Yard_2_jgcbds.jpg",
         plants: [
             {
                 name: "RYK Coo-Gen Switch Yard",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543637/Swithch_Yard_1_ndfmsz.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543638/Swithch_Yard_2_jgcbds.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543639/Swithch_Yard_3_dejmi0.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543639/Swithch_Yard_4_ma3rm0.jpg"
                 ],
             }
         ]
@@ -376,23 +358,19 @@ export const projectsData = [
             {
                 name: "Water Treatment Plant At ASM",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543648/water_treatment_8_hhdaib.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543645/water_treatment_22_sre9uk.png",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543642/water_treatment_13_rd6eev.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543641/water_treatment_11_lzdcwk.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543641/water_treatment_10_drnro1.jpg"
                 ],
             },
             {
                 name: "Water Treatment Plant At Mehran Sugar Mill",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543650/ETP3_ioyxng.png",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543650/ETP2_ddghzn.png",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543649/ETP1_fwvbyw.png"
                 ],
             },
         ]
@@ -402,17 +380,17 @@ export const projectsData = [
         name: "Ethonal Plants",
         description1:"Building advanced ethanol plants with sustainable technology, ensuring efficiency, reliability, and eco-friendly energy solutions.",
         description2:"At Al Hamd Engineering Services, we are at the forefront of building efficient ethanol plants, offering state-of-the-art technology at affordable rates. Our expert team ensures the highest levels of performance and sustainability in every project we undertake.",
-        singleImage:"https://www.dsengineers.com/files/uploads/2020/08/Ethanol-ABF-ALCO-BioFuel-bioethanol-plant-Belgium-2.jpg",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1735543663/ethnol_plant_9_fx4lux.jpg",
         plants: [
             {
                 name: "Ethonal Plant",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543663/ethnol_plant_9_fx4lux.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543661/ethnol_plant_7_a6plfz.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543660/ethnol_plant_5_wbhlf7.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543660/ethnol_plant_2_ighqjb.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543659/ethnol_plant_4_a3rped.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543651/ethanol1_vz3fxp.jpg"
                 ],
             }
         ]
@@ -442,17 +420,15 @@ export const projectsData = [
         name: "Steel Mills",
         description1:"Delivering robust and efficient construction solutions for steel mills with advanced technology and durable infrastructure.",
         description2:"At Al Hamd Engineering Services, we are dedicated to providing top-tier steel mill construction services that support the growth of the industrial sector in Pakistan. Our experienced team ensures that each steel mill is built with precision, durability, and the highest standards of quality.",
-        singleImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-V54X6aY_fI1a0OSgblrRkr1cInKGvtQMiQ&s",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1735543662/STEELMILL2_jssic5.png",
         plants: [
             {
                 name: "Al-Moiz Steel Mill",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543662/STEELMILL2_jssic5.png",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543663/STEELMILL_qkrxjv.png",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543663/STEELMILL4_lcnrgs.png",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543664/STEELMILL3_wfmdzf.png"
                 ],
             }
         ]
@@ -467,12 +443,11 @@ export const projectsData = [
             {
                 name: "Water Reserver at Pioneer",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543665/PIONEER_CEMENT_1_my8lmu.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543666/PIONEER_CEMENT_3_cz8nhl.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543667/PIONEER_CEMENT_5_cnzytu.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543667/PIONEER_CEMENT_6_i76u1k.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543668/PIONEER_CEMENT_7_oc84nl.jpg"
                 ],
             },
         ]
@@ -482,39 +457,38 @@ export const projectsData = [
         name: "Feed Mills",
         description1:"Providing high-quality construction solutions for feed plants with modern technology and sustainable infrastructure.",
         description2:"At Al Hamd Engineering Services, we provide cutting-edge feed mill construction solutions that meet the demands of the agricultural industry in Pakistan. With our expertise, we ensure that each feed mill is built to optimize performance and production capacity.",
-        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1732857804/WHOLE_FOOD_FEED_BHAKHAR_9_cxjjko.jpg",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1735543680/WHOLE_FOOD_MILL_LAYYAH_16_qzgbra.jpg",
         plants: [
             {
                 name: "Whole Food at Layyah",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857794/WHOLE_FOOD_MILL_LAYYAH_14_uf8chu.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857786/WHOLE_FOOD_MILL_LAYYAH_15_f2ojcb.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857781/WHOLE_FOOD_MILL_LAYYAH_8_ykmibc.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857780/WHOLE_FOOD_MILL_LAYYAH_17_n7lm0o.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857780/WHOLE_FOOD_MILL_LAYYAH_6_ijtncn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857778/WHOLE_FOOD_MILL_LAYYAH_16_nte4ir.jpg"
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543680/WHOLE_FOOD_MILL_LAYYAH_16_qzgbra.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543678/WHOLE_FOOD_MILL_LAYYAH_6_i93whd.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543677/WHOLE_FOOD_MILL_LAYYAH_14_llbvjc.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543677/WHOLE_FOOD_MILL_LAYYAH_15_zrtf6u.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543686/WHOLE_FOOD_MILL_LAYYAH_3_alvd6g.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543674/WHOLE_FOOD_MILL_LAYYAH_1_wow7jd.jpg",
                 ],
             },
             {
                 name: "Whole Food at Bhakkar",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857785/WHOLE_FOOD_FEED_BHAKHAR_1_wz19hg.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857800/WHOLE_FOOD_FEED_BHAKHAR_11_ioj4i1.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857806/WHOLE_FOOD_FEED_BHAKHAR_7_semgfa.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857804/WHOLE_FOOD_FEED_BHAKHAR_2_lys2th.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857803/WHOLE_FOOD_FEED_BHAKHAR_8_fqxxjq.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857790/WHOLE_FOOD_FEED_BHAKHAR_10_hcyx1j.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543685/WHOLE_FOOD_FEED_BHAKHAR_10_h7f8gv.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543689/WHOLE_FOOD_FEED_BHAKHAR_1_ooma5e.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543697/WHOLE_FOOD_FEED_BHAKHAR_6_hu9vjk.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543698/WHOLE_FOOD_FEED_BHAKHAR_8_yvty8b.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543700/WHOLE_FOOD_FEED_BHAKHAR_9_rmemea.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543700/WHOLE_FOOD_FEED_BHAKHAR_7_fdfjwz.jpg"
                 ],
             },
             {
                 name: "Ultimate Whole Food",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857804/Ultimate_whole_food_feed_mills_2_qafqv9.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857805/Ultimate_whole_food_feed_mills_5_bsohuc.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857802/Ultimate_whole_food_feed_mills_1_or9zlf.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857804/WHOLE_FOOD_FEED_BHAKHAR_9_cxjjko.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857790/WHOLE_FOOD_FEED_BHAKHAR_10_hcyx1j.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857804/WHOLE_FOOD_FEED_BHAKHAR_9_cxjjko.jpg"
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543699/Ultimate_whole_food_feed_mills_1_tndeln.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543699/Ultimate_whole_food_feed_mills_2_yht48c.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543700/Ultimate_whole_food_feed_mills_2_lzsbxb.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543700/Ultimate_whole_food_feed_mills_3_aiunr0.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543701/Ultimate_whole_food_feed_mills_5_cqj2bf.jpg"
                 ],
             },
         ]
@@ -529,12 +503,12 @@ export const projectsData = [
             {
                 name: "Meerpur Khas Paper Plant",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857728/mirpur_khas_paper_plant_10_im99um.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857728/mirpur_khas_paper_plant_1_jggtyp.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857728/mirpur_khas_paper_plant_11_cpi4ou.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857728/mirpur_khas_paper_plant_14_k9qltm.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857729/mirpur_khas_paper_plant_15_vk0wxs.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732857729/mirpur_khas_paper_plant_20_w4o3ol.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543574/mirpur_khas_paper_plant_30_entf2f.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543575/mirpur_khas_paper_plant_32_oo3h9g.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543575/mirpur_khas_paper_plant_31_fclkyb.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543573/mirpur_khas_paper_plant_29_l6s0j2.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543572/mirpur_khas_paper_plant_26_y8xsex.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543565/mirpur_khas_paper_plant_16_i2djx1.jpg"
                 ],
             }
         ]
@@ -549,12 +523,12 @@ export const projectsData = [
             {
                 name: "Bin Riaz Dairy Form",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732606592/bin_raiz_dairy_farm_patoki_17_onwtfg.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732606592/bin_raiz_dairy_farm_patoki_9_orjdzo.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732606592/bin_raiz_dairy_farm_patoki_14_zhqpwx.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732606590/bin_raiz_dairy_farm_patoki_11_muocml.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732606589/bin_raiz_dairy_farm_patoki_13_jrxuqa.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732606588/bin_raiz_dairy_farm_patoki_3_yz0rcy.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543583/bin_raiz_dairy_farm_patoki_14_gnmjro.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543582/bin_raiz_dairy_farm_patoki_13_ynvjep.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543584/bin_raiz_dairy_farm_patoki_15_lwnsdu.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543581/bin_raiz_dairy_farm_patoki_11_xqxnih.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543584/bin_raiz_dairy_farm_patoki_16_ty12ep.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543587/bin_raiz_dairy_farm_patoki_3_v7fejy.jpg",
                 ],
             },
             {
@@ -580,12 +554,8 @@ export const projectsData = [
             {
                 name: "RHSM Godown 60,000 Sft",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543594/452813470_3711708589102775_251268945477141367_n_y8lp5h.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543593/451808512_3706320309641603_6158543899705092547_n_ev4p50.jpg"
                 ],
             },
             {
@@ -597,6 +567,24 @@ export const projectsData = [
                     "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
                     "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
                     "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                ],
+            },
+            {
+                name: "Alliance Godown 128,000 Sft",
+                images: [
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543613/alliance_godown_2_ey2jwe.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543612/alliance_godown_1_ilrvys.jpg"
+                ],
+            },
+            {
+                name: "AlMoiz Sugar Godown",
+                images: [
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543598/sugar_godown_almoiz_10_hgjray.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543599/sugar_godown_almoiz_11_zqr3ya.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543603/sugar_godown_almoiz_18_zogexc.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543604/sugar_godown_almoiz_2_f7xhng.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543610/sugar_godown_almoiz_9_pvfswp.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543607/sugar_godown_almoiz_4_s13qho.jpg",
                 ],
             },
             {
@@ -624,12 +612,10 @@ export const projectsData = [
             {
                 name: "Al-Hamd Logistics",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543597/warehouse4_eogggo.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543596/warehouse3_k7h1md.png",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543595/warehouse2_harawq.png",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543595/warehouse1_yibivp.png"
                 ],
             },
         ]
@@ -675,12 +661,8 @@ export const projectsData = [
             {
                 name: "IZFAR Pharmacitucal",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543612/izfaar_Pharmacitucal_tngwh2.jpg",
+                    ""
                 ],
             },
             {
@@ -706,12 +688,7 @@ export const projectsData = [
             {
                 name: "Anjum Textile Mills",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543613/DYNAMIC_TEXTILES_gbio8h.jpg"
                 ],
             },
             {
@@ -748,12 +725,12 @@ export const projectsData = [
             {
                 name: "Al-Moiz Sports Complex",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732601273/sport_1_ouu0pa.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732601274/sport_3_egewoh.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732601281/sport_4.1_cqnc7z.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732601274/sport_8_knbkub.jpg",
-                    "https://static.vecteezy.com/system/resources/previews/006/614/437/non_2x/indoor-badminton-court-free-photo.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732601870/sport_4_zho9sm.jpg"
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543613/sport_1_oveids.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543614/sport_10_r5gfjg.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543619/sport_4.1_pcxqei.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543620/sport_9_leapfw.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543619/sport_7_fazi3e.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543618/sport_6_jvqrgi.jpg"
                 ],
             }
         ]
@@ -837,17 +814,13 @@ export const projectsData = [
         name: "Houses/Hostel",
         description1:"Constructing comfortable, modern hostels with sustainable designs for secure, efficient, and community-focused living spaces.",
         description2:"At Al Hamd Engineering Services, we provide high-quality hostel construction solutions designed to accommodate students and workers across Pakistan. Our expert team ensures that each hostel offers comfort, safety, and the necessary amenities for a conducive living environment.",
-        singleImage:"https://res.cloudinary.com/brickandbatten/image/upload/w_464,h_283,dpr_2/f_auto,q_auto/v1713267421/wordpress_assets/313364-Alabaster-Caviar-TeakStain-A-copy.jpg?_i=AA",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1735543621/hostel_1_gqnnw4.jpg",
         plants: [
             {
                 name: "Al-Moiz Officer Hostel",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543621/hostel_2_e0dnt6.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543621/hostel_1_gqnnw4.jpg"
                 ],
             },
             {
@@ -891,28 +864,20 @@ export const projectsData = [
         name: "Mosques",
         description1:"Building elegant, durable mosques with modern craftsmanship, sustainable materials, and spiritual community-focused designs.",
         description2:"At Al Hamd Engineering Services, we are committed to building beautiful and serene mosques that serve as places of worship and community gathering. Our skilled team ensures that each mosque is designed with respect for tradition and functionality, creating a peaceful environment for all.",
-        singleImage:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Mosque_MG_0823.jpg/640px-Mosque_MG_0823.jpg",
+        singleImage:"https://res.cloudinary.com/djpvajewe/image/upload/v1735543636/safina_sugar_mills_3_g5danv.jpg",
         plants: [
             {
                 name: "Al-Moiz Mosque",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543635/MOSQUE_ALMOIZ1_ulkjpv.png",
                 ],
             },
             {
                 name: "Safina Mosque",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604620/ittefaq_sugar_mills_3_mmmijn.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_1_jkv8qw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604614/ittefaq_sugar_mills_4_iz0krw.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604612/ittefaq_sugar_mills_6_fdxxn5.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604611/ittefaq_sugar_mills_5_k9nfkd.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1732604609/ittefaq_sugar_mills_2_zqszgj.jpg",
+                   "https://res.cloudinary.com/djpvajewe/image/upload/v1735543636/safina_sugar_mills_3_g5danv.jpg",
+                   "https://res.cloudinary.com/djpvajewe/image/upload/v1735543636/safina_sugar_mills_2_tvyioz.jpg",
+                   "https://res.cloudinary.com/djpvajewe/image/upload/v1735543635/safina_sugar_mills_1_d3mkzm.jpg"
                 ],
             },
         ]

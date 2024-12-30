@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { RxCross1 } from "react-icons/rx";
-import { projectsData } from "./CompaniesArray"
+import { projectsData } from './CompaniesArray';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { Link } from 'react-router-dom';
 

@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
-import { projectsData } from './CompaniesArray'
+import { projectsData } from '../Components/CompaniesArray'
 import { useDispatch, useSelector } from 'react-redux'
 import { plantsDispatch } from '../Redux/Slice'
 import { Link } from 'react-router-dom'
 
-const ProjectsDropdowns = () => {
+const Navbar2Dropdown = () => {
     const dispatch=useDispatch()
     const {selectedPlant}=useSelector(state=>state.construction)
-    console.log(selectedPlant)
     const [activeDropdown, setActiveDropdown] = useState(null)
     const handleMouseEnter = (index) => {
         setActiveDropdown(index)
@@ -21,7 +20,7 @@ const ProjectsDropdowns = () => {
     }
     return (
         <>
-            <div className='w-[200px] h-[80vh] bg-white rounded absolute top-[40px] left-0 z-10 invisible group-hover:visible duration-500'>
+            <div className='w-[200px] h-[80vh] bg-white rounded absolute top-[20px] left-0 z-10 duration-500'>
                 {
                     projectsData.map((e, i) => {
                         return (
@@ -52,4 +51,4 @@ const ProjectsDropdowns = () => {
     )
 }
 
-export default ProjectsDropdowns
+export default Navbar2Dropdown

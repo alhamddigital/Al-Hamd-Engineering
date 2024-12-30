@@ -3,7 +3,7 @@ import { FaPhoneFlip } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { MdLocationPin } from "react-icons/md";
 
-const ContactComp = () => {
+const Contact1 = () => {
     return (
         <div className='w-full min-h-screen px-2 py-5 lg:px-[150px] lg:py-[60px]'>
             <h1 className='text-center text-3xl font-[600]'>Contact Us</h1>
@@ -61,4 +61,4 @@ const ContactComp = () => {
     )
 }
 
-export default ContactComp
+export default Contact1

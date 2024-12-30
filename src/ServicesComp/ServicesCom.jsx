@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdDescription } from 'react-icons/md'
-import { projectsData } from './CompaniesArray'
+import { projectsData } from '../Components/CompaniesArray'
 import { Link } from 'react-router-dom'
 
 const ServicesCom = () => {

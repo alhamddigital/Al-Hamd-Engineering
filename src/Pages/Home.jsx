@@ -1,34 +1,24 @@
-import React, { Suspense } from 'react';
-import CategoryPlants from '../Components/CategoryPlants';
-import About from '../Components/About';
-import Hsection from '../Components/Hsection';
-
-// Lazy load the components
-const Values = React.lazy(() => import('../Components/Values'));
-const Clients = React.lazy(() => import('../Components/Clients'));
-const Contact = React.lazy(() => import('../Components/Contact'));
-const Footer = React.lazy(() => import('../Components/Footer'));
+import React from 'react'
+import Navbar1 from '../HomeComp/Navbar1'
+import Navbar2 from '../HomeComp/Navbar2'
+import Hsection from '../HomeComp/Hsection'
+import About from '../HomeComp/About'
+import Values from '../HomeComp/Values'
+import Clients from '../HomeComp/Clients'
+import Contact from "../HomeComp/Contact"
+import Footer from '../HomeComp/Footer'
 
 const Home = () => {
   return (
     <>
       <Hsection/>
-      {/* <CategoryPlants /> */}
-      <About />
-      <Suspense fallback={<div>Loading Values Section...</div>}>
-        <Values />
-      </Suspense>
-      <Suspense fallback={<div>Loading Clients Section...</div>}>
-        <Clients />
-      </Suspense>
-      <Suspense fallback={<div>Loading Contact Section...</div>}>
-        <Contact />
-      </Suspense>
-      <Suspense fallback={<div>Loading Footer...</div>}>
-        <Footer />
-      </Suspense>
+      <About/>
+      <Values/>
+      <Clients/>
+      <Contact/>
+      <Footer/>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

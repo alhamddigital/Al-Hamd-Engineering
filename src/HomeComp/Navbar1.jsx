@@ -3,7 +3,7 @@ import { FaPhone } from "react-icons/fa";
 import { FiClock } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
-import Sidebar from './Sidebar';
+import Sidebar from '../Components/Sidebar';
 
 const Navbar1 = () => {
     const [checkMenu, setCheckMenu] = useState(false)

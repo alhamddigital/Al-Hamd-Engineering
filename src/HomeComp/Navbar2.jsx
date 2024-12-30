@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { IoMdArrowDropdown } from "react-icons/io";
-import ProjectsDropdowns from './ProjectsDropdowns';
+import Navbar2Dropdown from './Navbar2Dropdown';
 import { Link } from 'react-router-dom';
 
 const Navbar2 = () => {
+    const [checkDropdown, setcheckDropdown] = useState(false)
+    console.log(checkDropdown, "checkDropdown")
     return (
         <div className='w-full h-[60px] flex justify-between items-center md:px-[20px] lg:px-[100px] bg-[rgb(31,66,93)] hidden md:flex sticky top-[80px] left-0 z-10'>
 
@@ -34,11 +36,12 @@ const Navbar2 = () => {
                 </a>
 
                 {/* ------------------------------------Dropdowns----------------------------------- */}
-                <li className='ml-7 cursor-pointer group relative flex items-center'><span className='text-white font-[600]'>Projects</span>
+                <li onMouseOver={() => setcheckDropdown(true)} onMouseOut={() => setcheckDropdown(false)} className='ml-7 cursor-pointer relative flex items-center'><span className='text-white font-[600]'>Projects</span>
                     <div className='ml-1 text-white font-[600]'><IoMdArrowDropdown /></div>
-                    <div>
-                        <ProjectsDropdowns />
-                    </div>
+                    {
+                        checkDropdown && (<Navbar2Dropdown />)
+                    }
+
                 </li>
 
                 <a href="/services">
