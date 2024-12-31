@@ -24,7 +24,7 @@ const Navbar2Dropdown = () => {
                 {
                     projectsData.map((e, i) => {
                         return (
-                            <div key={i} onMouseOver={() => handleMouseEnter(i)} onMouseOut={handleMouseLeave} className='px-1 py-1 text-white bg-[rgb(31,66,93)] hover:bg-[rgb(253,183,0)] relative group'>
+                            <div key={i} onMouseOver={() => handleMouseEnter(i)} onMouseOut={handleMouseLeave} className='px-2 py-1 text-white bg-[rgb(31,66,93)] border-b border-red-300 hover:bg-[rgb(253,183,0)] relative group'>
                                 {e.name}
                                 {
                                     activeDropdown == i && (
@@ -33,7 +33,7 @@ const Navbar2Dropdown = () => {
                                                 e.plants.map((ele, i) => {
                                                     return (
                                                         <a href="/projects">
-                                                            <div onClick={()=>handleProjects(ele)} className='p-1 bg-[rgb(31,66,93)] hover:bg-[rgb(253,183,0)]'>
+                                                            <div onClick={()=>handleProjects(ele)} className='p-1 bg-[rgb(31,66,93)] border-b border-red-300 hover:bg-[rgb(253,183,0)]'>
                                                                 {ele.name}
                                                             </div>
                                                         </a>

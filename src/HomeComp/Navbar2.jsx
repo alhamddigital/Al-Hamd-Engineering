@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { IoMdArrowDropdown } from "react-icons/io";
 import Navbar2Dropdown from './Navbar2Dropdown';
-import { Link } from 'react-router-dom';
+
 
 const Navbar2 = () => {
     const [checkDropdown, setcheckDropdown] = useState(false)
@@ -56,6 +56,11 @@ const Navbar2 = () => {
                 </a>
                 <a href="/contact">
                     <li className='ml-7 font-[600] text-white cursor-pointer group relative'>Contact Us
+                        <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
+                    </li>
+                </a>
+                <a href="/gallery">
+                    <li className='ml-7 font-[600] text-white cursor-pointer group relative'>Gallery
                         <div className='w-0 transition-all duration-700 h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full'></div>
                     </li>
                 </a>

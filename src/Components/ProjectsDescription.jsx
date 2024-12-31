@@ -43,7 +43,7 @@ const ProjectsDescription = () => {
             {
               project.images.map((e, i) => {
                 return (
-                  <div key={i} className='w-[100%] h-[220px] md:h-[400px] lg:h-[500px]'>
+                  <div className='w-[100%] h-[220px] md:h-[400px]' key={i}>
                     <img src={e} className='w-full h-full object-cover' alt="" />
                   </div>
                 )

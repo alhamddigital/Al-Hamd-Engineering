@@ -62,6 +62,7 @@ const Sidebar = ({ setCheckMenu }) => {
 
             <li className='font-[600] mt-1 text-white'><a href="/about">About Us</a></li>
             <li className='font-[600] mt-1 text-white'><a href="/contact">Contact Us</a></li>
+            <li className='font-[600] mt-1 text-white'><a href="/gallery">Gallery</a></li>
           </ul>
         </div>
 

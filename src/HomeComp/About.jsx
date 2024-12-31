@@ -36,12 +36,14 @@ const About = () => {
 
 
     const sliderArray = [
-        "https://res.cloudinary.com/djpvajewe/image/upload/v1732603735/alliance_3_o8hz88.jpg",
-        "https://res.cloudinary.com/djpvajewe/image/upload/v1732603736/alliance_4_luoedi.jpg",
         "https://res.cloudinary.com/djpvajewe/image/upload/v1732603737/allaince_1_ysbjkh.jpg",
-        "https://res.cloudinary.com/djpvajewe/image/upload/v1732603737/allaince_2_eiqiar.jpg",
-        "https://res.cloudinary.com/djpvajewe/image/upload/v1732603737/alliance_5_uwvwj3.jpg",
-        "https://res.cloudinary.com/djpvajewe/image/upload/v1732603737/alliance_6_yduzkg.jpg",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1735543627/RYK_POWER_PLANT_16_ufvjcy.jpg",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1735543648/water_treatment_8_hhdaib.jpg",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1735543613/sport_1_oveids.jpg",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1735543662/STEELMILL2_jssic5.png",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1735543680/WHOLE_FOOD_MILL_LAYYAH_16_qzgbra.jpg",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1732857728/mirpur_khas_paper_plant_14_k9qltm.jpg",
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1735543636/safina_sugar_mills_3_g5danv.jpg"
     ]
 
     return (

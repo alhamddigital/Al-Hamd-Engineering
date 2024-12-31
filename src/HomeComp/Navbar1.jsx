@@ -29,7 +29,7 @@ const Navbar1 = () => {
 
                 <div className='w-[120px] cursor-pointer'>
                     <a href="/">
-                        <img className='w-full' src="https://res.cloudinary.com/dqfjfh5wm/image/upload/v1732788965/fr82i0vhs2yxfrnicxqx.png" alt="" />
+                        <img className='w-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1735543701/consLogo_z95qoy.png" alt="" />
                     </a>
                 </div>
 
