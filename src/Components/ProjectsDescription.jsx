@@ -16,12 +16,13 @@ const ProjectsDescription = () => {
     waitForAnimate: false,
     autoplay: true,
     autoplaySpeed: 2000,
+    pauseOnHover:false,
   };
 
 
 
   return (
-    <div className='w-full h-full py-2 sm:py-[40px] px-1 md:px-[40px] lg:px-[100px] overflow-hidden'>
+    <div className='w-full h-full py-2 sm:py-[40px] px-1 md:px-[40px] lg:px-[100px] overflow-hidden border border-red-500'>
 
       <p className='text-center text-2xl sm:text-4xl font-[600] text-[rgb(31,66,93)]'>{project.name}</p>
 

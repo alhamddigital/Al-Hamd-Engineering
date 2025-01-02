@@ -884,12 +884,17 @@ export const projectsData = [
         description2: "At Al Hamd Engineering Services, we are dedicated to producing high-quality beverages that cater to diverse tastes and preferences. Our expert team focuses on using the finest ingredients and advanced techniques to ensure every product is both refreshing and consistent, providing a premium experience for our customers.",
         singleImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXoCHFAtDjWNT_VycsjyrTjf0acI_PYJvT2Q&s",
         plants: [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIOFy1EijJlDafKuKsvk25Bh2404harMUg7g&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIOFy1EijJlDafKuKsvk25Bh2404harMUg7g&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIOFy1EijJlDafKuKsvk25Bh2404harMUg7g&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIOFy1EijJlDafKuKsvk25Bh2404harMUg7g&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIOFy1EijJlDafKuKsvk25Bh2404harMUg7g&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIOFy1EijJlDafKuKsvk25Bh2404harMUg7g&s",
+            {
+                name: "Next Cola",
+                images: [
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXoCHFAtDjWNT_VycsjyrTjf0acI_PYJvT2Q&s",
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXoCHFAtDjWNT_VycsjyrTjf0acI_PYJvT2Q&s",
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXoCHFAtDjWNT_VycsjyrTjf0acI_PYJvT2Q&s",
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXoCHFAtDjWNT_VycsjyrTjf0acI_PYJvT2Q&s",
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXoCHFAtDjWNT_VycsjyrTjf0acI_PYJvT2Q&s",
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXoCHFAtDjWNT_VycsjyrTjf0acI_PYJvT2Q&s"
+                ]
+            }
         ]
     }
 
