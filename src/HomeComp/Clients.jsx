@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useDispatch } from 'react-redux';
-import { constructionClient } from '../Redux/Slice';
+// import { constructionClient } from '../Redux/Slice';
 
 const Clients = () => {
 
@@ -91,7 +91,7 @@ const Clients = () => {
 
     return (
         <>
-            <div ref={clientRef} id='consClient' className='w-full lg:h-screen py-4 pb-9 sm:pb-0 lg:py-[50px] px-3 lg:px-9 overflow-hidden'>
+            <div ref={clientRef} id='consClient' className='w-full py-4 pb-9 sm:pb-0 lg:py-[50px] px-3 lg:px-9 overflow-hidden'>
                 <h1 className='text-3xl text-center font-[600]'>Our Clients</h1>
                 
                 <div className='lg:w-[70%] text-center mt-9 sm:text-xl mx-auto text-justify sm:text-center'>Our valued clients are at the heart of everything we build. With trust and collaboration, we deliver tailored solutions that exceed expectations, creating long-lasting partnerships and remarkable results.</div>

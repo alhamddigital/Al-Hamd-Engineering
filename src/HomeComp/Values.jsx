@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { useDispatch } from 'react-redux'
-import { constructionValues } from '../Redux/Slice'
+// import { constructionValues } from '../Redux/Slice'
 
 const Values = () => {
   const dispatch = useDispatch()
@@ -70,7 +70,7 @@ const Values = () => {
       <div
         ref={valuesRef}
         id='consValues'
-        className='w-full lg:min-h-[100vh] px-3 lg:px-[100px] py-8 lg:py-[20px]'
+        className='w-full px-3 lg:px-[100px] py-8 lg:py-[20px]'
       >
         <h1
           ref={headingRef}

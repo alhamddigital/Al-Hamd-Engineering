@@ -865,6 +865,8 @@ export const projectsData = [
                 name: "Al-Moiz Mosque",
                 images: [
                     "https://res.cloudinary.com/djpvajewe/image/upload/v1735543635/MOSQUE_ALMOIZ1_ulkjpv.png",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543635/MOSQUE_ALMOIZ1_ulkjpv.png",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543635/MOSQUE_ALMOIZ1_ulkjpv.png",
                 ],
             },
             {

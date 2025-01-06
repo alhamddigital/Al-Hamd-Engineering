@@ -1,16 +1,23 @@
 import React, { useEffect, useRef, useState } from 'react';
 import emailjs from "@emailjs/browser";
-import { useDispatch } from 'react-redux';
-import { constructionContact } from '../Redux/Slice';
+// import { useDispatch } from 'react-redux';
+// import { constructionContact } from '../Redux/Slice';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useDispatch } from 'react-redux';
+import { pageNumber } from '../Redux/Slice';
 
 const Contact = () => {
     const formRef = useRef();
     const contactRef = useRef();
     const [watsapp, setwatsapp] = useState(false);
     const [whatsAppMessage, setWhatsAppMessage] = useState("");
+
     const dispatch = useDispatch()
+    useEffect(() => {
+        dispatch(pageNumber(5))
+    }, [])
+    // const dispatch = useDispatch()
 
     useEffect(() => {
         window.addEventListener("scroll", () => {

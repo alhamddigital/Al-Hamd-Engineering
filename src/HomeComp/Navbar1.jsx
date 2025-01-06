@@ -41,7 +41,7 @@ const Navbar1 = () => {
                     <div className='text-[rgb(226,31,47)]'><FaPhone /></div>
                     <div className='ml-3'>
                         <p className='mt-1'>Call Us Anytime</p>
-                        <p>03219635875</p>
+                        <p>+923219635875</p>
                     </div>
                 </div>
                 <div className='ml-5 flex items-center'>
@@ -55,7 +55,7 @@ const Navbar1 = () => {
                     <div className='text-[rgb(226,31,47)]'><MdEmail /></div>
                     <div className='ml-3'>
                         <p className='mt-1'>Email Us</p>
-                        <p>@gmail.com</p>
+                        <p className='hover:text-red-500 transition duration-300'><a href="https://mail.google.com/mail/?view=cm&fs=1&to=alhamd.ges@gmail.com" target="_blank">alhamd.ges@gmail.com</a></p>
                     </div>
                 </div>
             </div>

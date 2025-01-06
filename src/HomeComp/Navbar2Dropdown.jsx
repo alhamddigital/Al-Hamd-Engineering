@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { projectsData } from '../Components/CompaniesArray'
 import { useDispatch, useSelector } from 'react-redux'
-import { plantsDispatch } from '../Redux/Slice'
+// import { plantsDispatch } from '../Redux/Slice'
 import { Link } from 'react-router-dom'
 
 const Navbar2Dropdown = () => {

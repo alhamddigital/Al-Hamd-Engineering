@@ -1,30 +1,33 @@
 import React, { useState } from 'react'
 import { IoMdArrowDropdown } from "react-icons/io";
 import Navbar2Dropdown from './Navbar2Dropdown';
+import { useSelector } from 'react-redux';
 
 
 const Navbar2 = () => {
     const [checkDropdown, setcheckDropdown] = useState(false)
+    const {page}=useSelector(state=>state.construction)
+    console.log(page,"Page")
     console.log(checkDropdown, "checkDropdown")
     return (
         <div className='w-full h-[60px] flex justify-between items-center md:px-[20px] lg:px-[100px] bg-[rgb(31,66,93)] hidden md:flex sticky top-[60px] left-0 z-10'>
 
             <div className='flex items-center'>
-                <div className='w-[40px] h-[40px] cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='watsapp'>
+                <div className='w-[40px] h-[40px] cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='Watsapp'>
                     <a href="https://wa.me/+923454014436" target="_blank" rel="noopener noreferrer">
-                        <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857807/watsapp_pyr5pq.png" alt="" />
+                        <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857807/watsapp_pyr5pq.png" alt="watsapp" />
                     </a>
                 </div>
-                <div className='w-[40px] h-[40px] ml-[] cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='instagram'>
-                    <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857806/linkedin_egzsvk.png" alt="" />
+                <div className='w-[40px] h-[40px] ml-[] cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='Linkedin'>
+                    <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857806/linkedin_egzsvk.png" alt="linkedin" />
                 </div>
                 <a href="https://www.facebook.com/p/Al-Hamd-General-Engineering-Services-Lahore-100065319076543/" target='blank'>
-                    <div className='w-[40px] h-[40px] cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='facebook'>
-                        <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857806/facebook_oozfbi.png" alt="" />
+                    <div className='w-[40px] h-[40px] cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='Facebook'>
+                        <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857806/facebook_oozfbi.png" alt="facebook" />
                     </div>
                 </a>
-                <div className='w-[35px] h-[35px] ml-1 cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='linkedin'>
-                    <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857806/instagram_ygvf9t.png" alt="" />
+                <div className='w-[35px] h-[35px] ml-1 cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='Instagram'>
+                    <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857806/instagram_ygvf9t.png" alt="instagram" />
                 </div>
             </div>
 

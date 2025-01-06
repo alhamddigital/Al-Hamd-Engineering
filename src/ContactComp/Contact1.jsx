@@ -13,11 +13,11 @@ const Contact1 = () => {
                     <h1 className='text-2xl font-[600]'>Have a Question ?</h1>
                     <div className='flex items-center mt-5'>
                         <div className=' text-red-500'><FaPhoneFlip /></div>
-                        <p className='ml-2'>+654654654645</p>
+                        <p className='ml-2'>+923219635875</p>
                     </div>
                     <div className='flex items-center mt-2'>
                         <div className='text-red-500 text-xl'><MdEmail /></div>
-                        <p className='ml-2'>@gmail.com</p>
+                        <p className='ml-2'>alhamd.ges@gmail.com</p>
                     </div>
                     <div className='flex items-center mt-2'>
                         <div className='text-red-500 text-xl'><MdLocationPin /></div>
