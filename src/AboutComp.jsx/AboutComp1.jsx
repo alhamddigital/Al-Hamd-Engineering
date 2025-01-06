@@ -1,7 +1,12 @@
 import React from 'react'
+import { projectsData } from '../Components/CompaniesArray'
+import { Link } from 'react-router-dom'
 
 const AboutComp1 = () => {
     const array = ["Sugar Mills", "Power Plant", "Switch Yard", "Water Treatment Plant", "Ethonal Plants", "Chemical Plants", "Steel Mills", "Cement Plants", "Feed Mills", "Warehouse/Shell/Godown", "Steel Structure", "Roads", "Hospitals", "Textiles", "Sports Complex", "Offices", "Schools", "Houses/Hostal", "Mosques", "Paper Plant"]
+    const handleProject = (object) => {
+        localStorage.setItem("mainProject", JSON.stringify(object))
+    }
     return (
         <div className='px-3 lg:px-[100px]'>
             <div>
@@ -25,9 +30,11 @@ const AboutComp1 = () => {
                     <p className='text-3xl font-[600] text-[rgb(31,66,93)]'>What We Do</p>
                     <ul className='ml-3'>
                         {
-                            array.map((e, i) => {
+                            projectsData.map((e, i) => {
                                 return (
-                                    <li className='list-disc mt-[4px] font-[600]' key={i}>{e}</li>
+                                    <Link to="/servicesprojects">
+                                        <li onClick={() => handleProject(e)} className='list-disc mt-[4px] font-[600] cursor-pointer hover:text-red-500 duration-300' key={i}>{e.name}</li>
+                                    </Link>
                                 )
                             })
                         }
@@ -39,7 +46,7 @@ const AboutComp1 = () => {
                     <p className='text-[33px] leading-[40px] sm:text-[50px] font-[600] text-[rgb(31,66,93)] sm:leading-[55px] mt-2 sm:mt-5'>Trusted Partner in<br /> Construction and Design</p>
                     <div className='w-full h-[300px] mt-5 relative'>
                         <img className='w-full h-full' src="https://buildgo.themeori.com/wp-content/uploads/2024/09/portfolio-8.jpg" alt="" />
-                        <div className='w-full h-full absolute top-0 left-0 bg-[rgb(0,0,0,0.6)] flex px-3 sm:px-[50px] items-center text-white text-4xl font-[600]'>2 Decades of<br/> Excellence</div>
+                        <div className='w-full h-full absolute top-0 left-0 bg-[rgb(0,0,0,0.6)] flex px-3 sm:px-[50px] items-center text-white text-4xl font-[600]'>2 Decades of<br /> Excellence</div>
                     </div>
                     <p className='mt-9 text-justify'>Our remarkable journey began with an unwavering commitment to excellence, and that steadfast commitment remains deeply embedded at the very core of our daily operations even today. Over the years, we have grown and evolved from being a small, modest local business into a reliable, trusted partner for both residential and commercial projects, providing exceptional services and building strong, lasting relationships along the way.</p>
                 </div>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from 'react-router-dom';
 
 const ServicesProjectsComp = () => {
     const settings = {
@@ -28,6 +29,11 @@ const ServicesProjectsComp = () => {
     // Check if the object is loaded and has the necessary properties
     const images = object?.plants?.[0]?.images || []; // Fallback to an empty array if no images are found
 
+    const handleProjects=(object)=>{
+            localStorage.setItem("plant",JSON.stringify(object))
+            // dispatch(plantsDispatch(object))
+        }
+
     return (
         <>
             <div className='w-full px-3 md:px-[40px] lg:px-[100px] py-5 lg:py-[60px] overflow-hidden'>
@@ -42,7 +48,9 @@ const ServicesProjectsComp = () => {
                             {
                                 object?.plants?.map((e, i) => {
                                     return (
-                                        <li key={i} className='list-disc mt-[2px]'>{e.name}</li>
+                                        <Link to="/projects">
+                                            <li onClick={()=>handleProjects(e)} key={i} className='list-disc mt-[2px] hover:text-red-500 duration-300 cursor-pointer'>{e.name}</li>
+                                        </Link>
                                     )
                                 })
                             }

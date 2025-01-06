@@ -23,7 +23,7 @@ const Navbar1 = () => {
     }, [checkMenu]);
 
     return (
-        <div className='w-full flex justify-between items-center py-[6px] md:px-[20px] pl-1 pr-2 lg:px-[100px] sticky top-0 left-0 bg-white z-10'>
+        <div className='w-full h-[60px] flex justify-between items-center md:px-[20px] pl-1 pr-2 lg:px-[100px] sticky top-0 left-0 bg-white z-10'>
 
             <div className='flex items-center'>
 
@@ -37,20 +37,26 @@ const Navbar1 = () => {
             </div>
 
             <div className='flex hidden md:flex'>
-                <div>
+                <div className='flex items-center'>
                     <div className='text-[rgb(226,31,47)]'><FaPhone /></div>
-                    <p className='mt-1'>Call Us Anytime</p>
-                    <p>03219635875</p>
+                    <div className='ml-3'>
+                        <p className='mt-1'>Call Us Anytime</p>
+                        <p>03219635875</p>
+                    </div>
                 </div>
-                <div className='ml-5'>
+                <div className='ml-5 flex items-center'>
                     <div className='text-[rgb(226,31,47)]'><FiClock /></div>
-                    <p className='mt-1'>Opening Time</p>
-                    <p>08:00 - 07:00</p>
+                    <div className='ml-3'>
+                        <p className='mt-1'>Opening Time</p>
+                        <p>08:00 - 07:00</p>
+                    </div>
                 </div>
-                <div className='ml-5'>
+                <div className='ml-5 flex items-center'>
                     <div className='text-[rgb(226,31,47)]'><MdEmail /></div>
-                    <p className='mt-1'>Email Us</p>
-                    <p>@gmail.com</p>
+                    <div className='ml-3'>
+                        <p className='mt-1'>Email Us</p>
+                        <p>@gmail.com</p>
+                    </div>
                 </div>
             </div>
 

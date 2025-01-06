@@ -7,6 +7,7 @@ const ServicesCom = () => {
     const handleProject = (object) => {
         localStorage.setItem("mainProject", JSON.stringify(object))
     }
+
     const array = [
         {
             name: "Sugar Mills",
@@ -70,7 +71,7 @@ const ServicesCom = () => {
         },
     ]
     return (
-        <div className='w-full py-[50px] px-2 sm:px-[30px] lg:px-[100px]'>
+        <div className='w-full py-[50px] px-2 sm:px-[30px] lg:px-[100px] border-2 border-red-500'>
             <h1 className='text-center text-xl text-[rgb(226,31,47)]'>OUR SERVICES</h1>
             <p className='md:w-[500px] lg:w-[800px] mx-auto text-center text-xl md:text-2xl lg:text-4xl mt-2 sm:mt-5 font-[600] text-[rgb(31,66,93)]'>HIGH QUALITY CONSTRUCTION SOLUTIONS FOR RESIDENTIALS & INDUSTRIES!</p>
 
