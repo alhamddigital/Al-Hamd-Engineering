@@ -29,12 +29,6 @@ const Contact = () => {
         })
     }, [])
 
-    useEffect(() => {
-        window.addEventListener("scroll", () => {
-            dispatch(constructionContact(contactRef.current.getBoundingClientRect().top));
-        });
-    }, []);
-
     const handleSubmit = (e) => {
         e.preventDefault();
 

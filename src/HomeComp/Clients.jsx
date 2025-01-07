@@ -8,13 +8,6 @@ import { useDispatch } from 'react-redux';
 const Clients = () => {
 
     const clientRef = useRef()
-    const dispatch=useDispatch()
-
-    useEffect(() => {
-        window.addEventListener("scroll", () => {
-            dispatch(constructionClient(clientRef.current.getBoundingClientRect().top))
-        })
-    }, [])
 
     const clientsArray = [
         "https://res.cloudinary.com/djpvajewe/image/upload/v1734416767/Tandianwala_Sugar_a8e138.jpg",

@@ -7,7 +7,7 @@ const Hsection = () => {
     <>
       <Navbar1 />
       <Navbar2 />
-      <div className='w-full h-[80vh] overflow-hidden'>
+      <div className='w-full lg:h-[83vh] overflow-hidden'>
         <div className='w-full h-full'>
           <video className='w-full h-full object-cover' src="https://res.cloudinary.com/djpvajewe/video/upload/v1735626402/Alhamd_Demo_ecskwr.mp4" autoPlay loop muted></video>
         </div>

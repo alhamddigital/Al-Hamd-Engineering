@@ -3,10 +3,12 @@ import { RxCross1 } from "react-icons/rx";
 import { projectsData } from './CompaniesArray';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 
 const Sidebar = ({ setCheckMenu }) => {
   const [selectedMillIndex, setselectedMillIndex] = useState(null)
+  const {page}=useSelector(state=>state.construction)
   const handleParentMills = (index) => {
     if (selectedMillIndex != null) {
       setselectedMillIndex(null)
@@ -18,6 +20,7 @@ const Sidebar = ({ setCheckMenu }) => {
   const handleMill = (object) => {
     localStorage.setItem("plant", JSON.stringify(object))
   }
+  console.log(page,"sidebar page")
   return (
     <div className='w-full h-[100vh] block md:hidden fixed top-0 left-0 bg-[rgb(0,0,0,0.6)] z-10'>
 
@@ -27,11 +30,11 @@ const Sidebar = ({ setCheckMenu }) => {
 
         <div className='mt-2'>
           <ul>
-            <li className='font-[600] mt-1 text-white'><a href="/">Home</a></li>
-            <li className='font-[600] mt-1 text-white'><a href="/services">Services</a></li>
-            <li className='font-[600] mt-1 text-white'><a href="/about">About Us</a></li>
-            <li className='font-[600] mt-1 text-white'><a href="/contact">Contact Us</a></li>
-            <li className='font-[600] mt-1 text-white'><a href="/gallery">Gallery</a></li>
+            <li className={`font-[600] ${page === 1 ? "bg-red-500" : ""} text-white px-1 rounded py-1`}><a href="/">Home</a></li>
+            <li className={`font-[600] ${page === 3 ? "bg-red-500" : ""} text-white px-1 rounded py-1`}><a href="/services">Services</a></li>
+            <li className={`font-[600] ${page === 4 ? "bg-red-500" : ""} text-white px-1 rounded py-1`}><a href="/about">About Us</a></li>
+            <li className={`font-[600] ${page === 5 ? "bg-red-500" : ""} text-white px-1 rounded py-1`}><a href="/contact">Contact Us</a></li>
+            <li className={`font-[600] ${page === 6 ? "bg-red-500" : ""} text-white px-1 rounded py-1`}><a href="/gallery">Gallery</a></li>
 
             <li className='mt-1'><span className='font-[600] text-white'>Projects</span>
               <div className='ml-5'>

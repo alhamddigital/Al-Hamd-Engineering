@@ -10,61 +10,6 @@ const Values = () => {
   const rightDiv = useRef()
   const headingRef = useRef()
 
-  // useEffect(() => {
-  //   gsap.fromTo(
-  //     leftDiv.current,
-  //     { x: '-200%' },
-  //     {
-  //       x: '0',
-  //       scrollTrigger: {
-  //         trigger: leftDiv.current,
-  //         start: 'Top 70%',
-  //         end: 'Top 60%',
-  //         scrub: 1,
-  //         markers: false
-  //       }
-  //     }
-  //   )
-
-  //   gsap.fromTo(
-  //     rightDiv.current,
-  //     { x: '-300%' },
-  //     {
-  //       x: '0',
-  //       scrollTrigger: {
-  //         trigger: rightDiv.current,
-  //         start: 'Top 90%',
-  //         end: 'Top 70%',
-  //         scrub: 1,
-  //         markers: false
-  //       }
-  //     }
-  //   )
-
-  //   gsap.fromTo(
-  //     headingRef.current,
-  //     { fontSize: '2px' },
-  //     {
-  //       fontSize: '24px',
-  //       scrollTrigger: {
-  //         trigger: headingRef.current,
-  //         start: 'Top 100%',
-  //         end: 'Top 60%',
-  //         scrub: 1,
-  //         markers: false
-  //       }
-  //     }
-  //   )
-  // }, [])
-
-  useEffect(() => {
-    window.addEventListener('scroll', () => {
-      dispatch(
-        constructionValues(valuesRef.current.getBoundingClientRect().top)
-      )
-    })
-  }, [])
-
   return (
     <>
       <div

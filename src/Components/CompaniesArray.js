@@ -339,10 +339,10 @@ export const projectsData = [
             {
                 name: "RYK Coo-Gen Switch Yard",
                 images: [
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543637/Swithch_Yard_1_ndfmsz.jpg",
                     "https://res.cloudinary.com/djpvajewe/image/upload/v1735543638/Swithch_Yard_2_jgcbds.jpg",
                     "https://res.cloudinary.com/djpvajewe/image/upload/v1735543639/Swithch_Yard_3_dejmi0.jpg",
-                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543639/Swithch_Yard_4_ma3rm0.jpg"
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543639/Swithch_Yard_4_ma3rm0.jpg",
+                    "https://res.cloudinary.com/djpvajewe/image/upload/v1735543637/Swithch_Yard_1_ndfmsz.jpg",
                 ],
             }
         ]
