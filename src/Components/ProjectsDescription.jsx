@@ -1,8 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Magnifier from "react-magnifier";
+import { useDispatch } from 'react-redux';
+import { pageNumber } from '../Redux/Slice';
 
 const ProjectsDescription = () => {
   const [project, setProject] = useState(JSON.parse(localStorage.getItem("plant") || {}))
@@ -16,8 +18,13 @@ const ProjectsDescription = () => {
     waitForAnimate: false,
     autoplay: true,
     autoplaySpeed: 2000,
-    pauseOnHover:false,
+    pauseOnHover: false,
   };
+
+  const dispatch = useDispatch()
+  useEffect(() => {
+    dispatch(pageNumber(2))
+  }, [])
 
 
 

@@ -5,8 +5,8 @@ import { useSelector } from 'react-redux';
 
 
 const Navbar2 = () => {
-const [checkDropdown, setcheckDropdown] = useState(false)       
-    const {page}=useSelector(state=>state.construction)
+    const [checkDropdown, setcheckDropdown] = useState(false)
+    const { page } = useSelector(state => state.construction)
     // console.log(page,"Page")
     console.log(checkDropdown, "checkDropdown")
     return (
@@ -18,9 +18,11 @@ const [checkDropdown, setcheckDropdown] = useState(false)
                         <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857807/watsapp_pyr5pq.png" alt="watsapp" />
                     </a>
                 </div>
-                <div className='w-[40px] h-[40px] ml-[] cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='Linkedin'>
-                    <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857806/linkedin_egzsvk.png" alt="linkedin" />
-                </div>
+                <a target='blank' href="https://www.linkedin.com/company/alhamd-general-engineering-services/posts/?feedView=all&viewAsMember=true">
+                    <div className='w-[40px] h-[40px] ml-[] cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='Linkedin'>
+                        <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857806/linkedin_egzsvk.png" alt="linkedin" />
+                    </div>
+                </a>
                 <a href="https://www.facebook.com/p/Al-Hamd-General-Engineering-Services-Lahore-100065319076543/" target='blank'>
                     <div className='w-[40px] h-[40px] cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='Facebook'>
                         <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857806/facebook_oozfbi.png" alt="facebook" />
@@ -29,6 +31,7 @@ const [checkDropdown, setcheckDropdown] = useState(false)
                 <div className='w-[35px] h-[35px] ml-1 cursor-pointer flex justify-center items-center overflow-hidden text-white text-2xl' title='Instagram'>
                     <img className='w-full h-full' src="https://res.cloudinary.com/djpvajewe/image/upload/v1732857806/instagram_ygvf9t.png" alt="instagram" />
                 </div>
+
             </div>
 
             <ul className='flex'>
@@ -39,8 +42,9 @@ const [checkDropdown, setcheckDropdown] = useState(false)
                 </a>
 
                 {/* ------------------------------------Dropdowns----------------------------------- */}
-                <li onMouseOver={() => setcheckDropdown(true)} onMouseOut={() => setcheckDropdown(false)} className='ml-7 cursor-pointer relative flex items-center'><span className='text-white font-[600]'>Projects</span>
+                <li onMouseOver={() => setcheckDropdown(true)} onMouseOut={() => setcheckDropdown(false)} className="ml-7 cursor-pointer relative flex items-center"><span className='text-white font-[600]'>Projects</span>
                     <div className='ml-1 text-white font-[600]'><IoMdArrowDropdown /></div>
+                    <div className={`w-0 transition-all duration-700 ${page === 2 ? "w-full" : ""} h-[4px] absolute top-7 left-0 bg-[rgb(226,31,47)] group-hover:w-full`}></div>
                     {
                         checkDropdown && (<Navbar2Dropdown />)
                     }
