@@ -22,7 +22,7 @@ const Sidebar = ({ setCheckMenu }) => {
   }
   console.log(page, "sidebar page")
   return (
-    <div className='w-full border border-red-500 h-[100vh] block md:hidden fixed top-0 left-0 bg-[rgb(0,0,0,0.6)] z-10'>
+    <div className='w-full h-[100vh] block md:hidden fixed top-0 left-0 bg-[rgb(0,0,0,0.6)] z-10'>
 
       <div className='w-[320px] h-screen bg-[rgb(31,66,93)] absolute top-0 right-0 p-2 overflow-y-scroll'>
         <div onClick={() => setCheckMenu(false)} className='w-max text-2xl fixed top-2 right-4 cursor-pointer text-white'><RxCross1 /></div>

@@ -9,7 +9,7 @@ import { pageNumber } from '../Redux/Slice'
 const Contact = () => {
   const dispatch=useDispatch()
   useEffect(()=>{
-    dispatch(pageNumber(4))
+    dispatch(pageNumber(5))
   },[])
   return (
     <>
