@@ -77,7 +77,7 @@ const AllImages = () => {
         "https://res.cloudinary.com/djpvajewe/image/upload/v1735543572/mirpur_khas_paper_plant_26_y8xsex.jpg",
         "https://res.cloudinary.com/djpvajewe/image/upload/v1735543565/mirpur_khas_paper_plant_16_i2djx1.jpg",
         "https://res.cloudinary.com/djpvajewe/image/upload/v1735543613/sport_1_oveids.jpg",
-        "https://res.cloudinary.com/djpvajewe/image/upload/v1735543619/sport_4.1_pcxqei.jpg"
+        "https://res.cloudinary.com/djpvajewe/image/upload/v1735543619/sport_4.1_pcxqei.jpg",
     ]
     return (
         <div className='w-full h-max px-3 sm:px-5 mt-5 sm:mt-9'>

@@ -9,6 +9,7 @@ import { useSelector } from 'react-redux';
 const Sidebar = ({ setCheckMenu }) => {
   const [selectedMillIndex, setselectedMillIndex] = useState(null)
   const { page } = useSelector(state => state.construction)
+  
   const handleParentMills = (index) => {
     if (selectedMillIndex != null) {
       setselectedMillIndex(null)
